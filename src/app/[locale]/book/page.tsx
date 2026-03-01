@@ -29,14 +29,14 @@ export default function BookPage() {
           <svg viewBox="0 0 1440 60" className="w-full h-auto" preserveAspectRatio="none">
             <path
               d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,40 1440,35 L1440,60 L0,60 Z"
-              fill="#f0f5ec"
+              fill="#c8d4b8"
             />
           </svg>
         </div>
       </section>
 
       {/* ========== Trial Lesson Info ========== */}
-      <section className="bg-[#f0f5ec] py-16 md:py-20">
+      <section className="bg-[#c8d4b8] py-16 md:py-20">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="section-title text-center mb-10">
             {t('book.trialTitle')}
@@ -69,7 +69,7 @@ export default function BookPage() {
       </section>
 
       {/* ========== WhatsApp CTA ========== */}
-      <section className="bg-[#eaf2e6] py-16 md:py-20">
+      <section className="bg-[#d0dcc0] py-16 md:py-20">
         <div className="container mx-auto px-4 text-center max-w-2xl">
           <h2 className="section-title mb-4">
             {t('book.whatsappTitle')}
@@ -98,7 +98,7 @@ export default function BookPage() {
       </section>
 
       {/* ========== Google Calendar Embed ========== */}
-      <section className="bg-[#f5f7f2] py-16 md:py-20">
+      <section className="bg-[#d6dfc8] py-16 md:py-20">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="section-title text-center mb-2">
             {t('book.calendarTitle')}

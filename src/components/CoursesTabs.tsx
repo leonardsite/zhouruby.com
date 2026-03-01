@@ -54,7 +54,7 @@ export default function CoursesTabs({
             className={`px-6 py-3 rounded-full font-display font-semibold text-lg transition-all duration-300 ${
               active === cat.key
                 ? 'bg-brand-green text-white shadow-lg'
-                : 'bg-[#fafcf8] text-brand-blue-dark border-2 border-brand-blue hover:bg-brand-blue/10'
+                : 'bg-[#e4ebd6] text-brand-blue-dark border-2 border-brand-blue hover:bg-brand-blue/20'
             }`}
           >
             <span className="mr-2">{cat.icon}</span>

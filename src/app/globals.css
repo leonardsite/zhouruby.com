@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply font-body text-brand-black bg-[#f5f7f2];
+    @apply font-body text-brand-black bg-[#d6dfc8];
   }
 }
 
@@ -35,12 +35,12 @@
     @apply text-3xl md:text-4xl font-display font-bold text-brand-blue-dark mb-4;
   }
   .section-subtitle {
-    @apply text-lg md:text-xl text-gray-600 mb-8;
+    @apply text-lg md:text-xl text-gray-700 mb-8;
   }
   .card {
-    @apply bg-[#fafcf8] rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+    @apply bg-[#e4ebd6] rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
   }
   .wave-bg {
-    background: linear-gradient(135deg, #ADD8E6 0%, #e8f4f8 50%, #f0faf0 100%);
+    background: linear-gradient(135deg, #7aab6b 0%, #9cc48d 40%, #b5d4a0 100%);
   }
 }

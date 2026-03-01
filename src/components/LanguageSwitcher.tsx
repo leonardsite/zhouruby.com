@@ -30,7 +30,7 @@ export default function LanguageSwitcher() {
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1.5 rounded-lg border border-brand-green/40 bg-[#f5f7f2]/80 px-3 py-1.5 text-sm font-body font-semibold text-brand-black transition hover:border-brand-green hover:bg-brand-green/10"
+        className="flex items-center gap-1.5 rounded-lg border border-brand-green-dark/40 bg-[#d6dfc8]/80 px-3 py-1.5 text-sm font-body font-semibold text-brand-black transition hover:border-brand-green-dark hover:bg-brand-green/20"
         aria-haspopup="listbox"
         aria-expanded={open}
       >
@@ -59,7 +59,7 @@ export default function LanguageSwitcher() {
       {open && (
         <ul
           role="listbox"
-          className="absolute right-0 z-50 mt-1 min-w-[10rem] overflow-hidden rounded-lg border border-brand-green/20 bg-[#fafcf8] py-1 shadow-lg"
+          className="absolute right-0 z-50 mt-1 min-w-[10rem] overflow-hidden rounded-lg border border-brand-green-dark/20 bg-[#e4ebd6] py-1 shadow-lg"
         >
           {locales.map((loc) => (
             <li key={loc}>

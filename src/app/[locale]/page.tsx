@@ -8,12 +8,18 @@ import Image from 'next/image';
 export default function HomePage() {
   const t = useTranslations();
 
-  const videoKeys = ['v1', 'v2', 'v3', 'v4'] as const;
-  const showcaseVideos = videoKeys.map((key) => ({
-    title: t(`showcase.videos.${key}.title`),
-    studentName: t(`showcase.videos.${key}.student`),
-    songName: t(`showcase.videos.${key}.song`),
-    description: t(`showcase.videos.${key}.desc`),
+  const videoData = [
+    { key: 'v1', youtubeId: 'BtJI8SekxHI' },
+    { key: 'v2', youtubeId: 'BaXUdtSIoME' },
+    { key: 'v3', youtubeId: 'HeuJ3oVR6RE' },
+    { key: 'v4' },
+  ] as const;
+  const showcaseVideos = videoData.map((v) => ({
+    title: t(`showcase.videos.${v.key}.title`),
+    studentName: t(`showcase.videos.${v.key}.student`),
+    songName: t(`showcase.videos.${v.key}.song`),
+    description: t(`showcase.videos.${v.key}.desc`),
+    youtubeId: 'youtubeId' in v ? v.youtubeId : undefined,
   }));
 
   return (
@@ -76,14 +82,14 @@ export default function HomePage() {
           <svg viewBox="0 0 1440 60" className="w-full h-auto" preserveAspectRatio="none">
             <path
               d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,40 1440,35 L1440,60 L0,60 Z"
-              fill="#f0f5ec"
+              fill="#c8d4b8"
             />
           </svg>
         </div>
       </section>
 
       {/* ========== About Section ========== */}
-      <section id="about" className="bg-[#f0f5ec] py-16 md:py-24">
+      <section id="about" className="bg-[#c8d4b8] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Text content */}
@@ -115,7 +121,7 @@ export default function HomePage() {
       </section>
 
       {/* ========== Teaching Method Section ========== */}
-      <section id="method" className="bg-[#eaf2e6] py-16 md:py-24">
+      <section id="method" className="bg-[#d0dcc0] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('method.sectionTitle')}</h2>
@@ -159,7 +165,7 @@ export default function HomePage() {
       </section>
 
       {/* ========== Featured Courses Section ========== */}
-      <section className="bg-[#f5f7f2] py-16 md:py-24">
+      <section className="bg-[#d6dfc8] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('featuredCourses.sectionTitle')}</h2>
@@ -213,7 +219,7 @@ export default function HomePage() {
       </section>
 
       {/* ========== Student Showcase Section ========== */}
-      <section id="showcase" className="bg-[#eef3ea] py-16 md:py-24">
+      <section id="showcase" className="bg-[#c8d4b8] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('showcase.sectionTitle')}</h2>
@@ -227,6 +233,7 @@ export default function HomePage() {
             {showcaseVideos.map((video, index) => (
               <VideoEmbed
                 key={index}
+                youtubeId={video.youtubeId}
                 title={video.title}
                 studentName={video.studentName}
                 songName={video.songName}

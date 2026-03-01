@@ -49,8 +49,8 @@ export default function Header() {
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${
         scrolled
-          ? 'bg-[#f5f7f2]/95 shadow-md backdrop-blur-md'
-          : 'bg-[#f5f7f2]/70 backdrop-blur-sm'
+          ? 'bg-[#c8d4b8]/95 shadow-md backdrop-blur-md'
+          : 'bg-[#d6dfc8]/70 backdrop-blur-sm'
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
@@ -136,7 +136,7 @@ export default function Header() {
 
       {/* Mobile Menu Panel */}
       <div
-        className={`fixed right-0 top-0 z-40 h-full w-72 transform bg-[#f5f7f2] shadow-xl transition-transform duration-300 md:hidden ${
+        className={`fixed right-0 top-0 z-40 h-full w-72 transform bg-[#d6dfc8] shadow-xl transition-transform duration-300 md:hidden ${
           mobileOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
