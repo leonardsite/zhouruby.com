@@ -109,15 +109,15 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Teacher portrait illustration */}
+            {/* Teacher photo */}
             <div className="order-1 md:order-2 flex justify-center">
-              <div className="relative w-[320px] h-[450px] rounded-2xl overflow-hidden shadow-xl ring-4 ring-white/50">
+              <div className="relative w-[300px] h-[420px] rounded-2xl overflow-hidden shadow-xl ring-4 ring-white/50">
                 <Image
-                  src="/images/generated/teacher-portrait.webp"
+                  src="/images/photos/ruby-photo-1-hd.webp"
                   alt="Ruby Zhou - Music Teacher"
                   fill
-                  className="object-cover"
-                  sizes="320px"
+                  className="object-cover object-top"
+                  sizes="300px"
                 />
               </div>
             </div>
