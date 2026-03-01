@@ -39,10 +39,10 @@ export default function HomePage() {
 
         {/* Floating decorative watercolor elements */}
         <div className="absolute top-8 left-8 w-20 h-20 md:w-28 md:h-28 opacity-40 animate-float" aria-hidden="true">
-          <Image src="/images/generated/method-music-nature.webp" alt="" fill className="object-contain" />
+          <Image src="/images/generated/method-music-nature-transparent.webp" alt="" fill className="object-contain" />
         </div>
         <div className="absolute bottom-20 right-8 w-16 h-16 md:w-24 md:h-24 opacity-30 animate-float-delayed" aria-hidden="true">
-          <Image src="/images/generated/method-scientific-vocal.webp" alt="" fill className="object-contain" />
+          <Image src="/images/generated/method-scientific-vocal-transparent.webp" alt="" fill className="object-contain" />
         </div>
 
         <div className="container mx-auto px-4 py-20 md:py-32 text-center relative z-10">
@@ -58,10 +58,10 @@ export default function HomePage() {
             />
           </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-brand-blue-dark mb-6 drop-shadow-sm">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-6" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.4), 0 0 2px rgba(0,0,0,0.2)' }}>
             {t('hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl text-[#2d3b2d] font-body max-w-2xl mx-auto mb-10">
+          <p className="text-xl md:text-2xl text-white font-body max-w-2xl mx-auto mb-10 font-semibold" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.4)' }}>
             {t('hero.subtitle')}
           </p>
 
@@ -109,15 +109,15 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Teacher photo */}
+            {/* Teacher portrait illustration */}
             <div className="order-1 md:order-2 flex justify-center">
-              <div className="relative w-[300px] h-[400px] rounded-2xl overflow-hidden shadow-xl ring-4 ring-white/50">
+              <div className="relative w-[320px] h-[450px] rounded-2xl overflow-hidden shadow-xl ring-4 ring-white/50">
                 <Image
-                  src="/images/photos/ruby-photo-1.jpg"
+                  src="/images/generated/teacher-portrait.webp"
                   alt="Ruby Zhou - Music Teacher"
                   fill
                   className="object-cover"
-                  sizes="300px"
+                  sizes="320px"
                 />
               </div>
             </div>
@@ -251,7 +251,7 @@ export default function HomePage() {
             <div className="card border-t-4 border-brand-green text-center group">
               <div className="relative w-24 h-24 mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <Image
-                  src="/images/generated/method-scientific-vocal.webp"
+                  src="/images/generated/method-scientific-vocal-transparent.webp"
                   alt={t('method.scientific.title')}
                   fill
                   className="object-contain"
@@ -270,7 +270,7 @@ export default function HomePage() {
             <div className="card border-t-4 border-brand-yellow text-center group">
               <div className="relative w-24 h-24 mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <Image
-                  src="/images/generated/method-music-nature.webp"
+                  src="/images/generated/method-music-nature-transparent.webp"
                   alt={t('method.nature.title')}
                   fill
                   className="object-contain"
@@ -289,7 +289,7 @@ export default function HomePage() {
             <div className="card border-t-4 border-brand-pink text-center group">
               <div className="relative w-24 h-24 mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <Image
-                  src="/images/generated/method-music-language.webp"
+                  src="/images/generated/method-music-language-transparent.webp"
                   alt={t('method.language.title')}
                   fill
                   className="object-contain"
@@ -434,7 +434,7 @@ export default function HomePage() {
           <Image src="/images/generated/decorative-monstera.webp" alt="" fill className="object-contain" />
         </div>
         <div className="absolute bottom-8 left-10 w-14 h-14 opacity-20 animate-float-delayed" aria-hidden="true">
-          <Image src="/images/generated/method-music-nature.webp" alt="" fill className="object-contain" />
+          <Image src="/images/generated/method-music-nature-transparent.webp" alt="" fill className="object-contain" />
         </div>
 
         <div className="container mx-auto px-4 text-center relative z-10">
