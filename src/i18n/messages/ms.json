@@ -50,6 +50,16 @@
     },
     "viewAll": "Lihat Semua Kursus"
   },
+  "rubyMusic": {
+    "sectionTitle": "Karya Pemenang Anugerah",
+    "headline": "SG:SW 2023 Anugerah Lagu Terbaik",
+    "subtitle": "Lagu asal Ruby yang memenangi anugerah",
+    "mvTitle": "Bunga Matahari di Bawah Bulan",
+    "mvSubtitle": "The Moon and the Sunflower",
+    "mvDesc": "SG:SW 2023 Anugerah Lagu Terbaik — Video Muzik Rasmi",
+    "audioTitle": "Bunga Matahari di Bawah Bulan (Audio)",
+    "audioDesc": "SG:SW 2023 Anugerah Lagu Terbaik — Lagu Penuh"
+  },
   "showcase": {
     "sectionTitle": "Pencapaian Pelajar",
     "headline": "Setiap pelajar adalah unik dan istimewa",
@@ -57,12 +67,12 @@
     "viewMore": "Lihat Lagi",
     "videoUnavailable": "Video akan datang",
     "videos": {
-      "v1": { "title": "Persembahan Pelajar Dewasa", "student": "Pelajar A", "song": "Lagu Pop", "desc": "Persembahan vokal pelajar dewasa" },
-      "v2": { "title": "Persembahan Vokal Kanak-kanak", "student": "Pelajar B", "song": "Lagu Sekolah", "desc": "Sorotan persembahan kelas vokal kanak-kanak" },
-      "v3": { "title": "Persembahan Langsung", "student": "Pelajar C", "song": "Lagu Klasik", "desc": "Rakaman persembahan langsung pelajar" },
-      "v4": { "title": "Kelas Muzik Prasekolah", "student": "Si Kecil", "song": "Lagu Kanak-kanak", "desc": "Sorotan kelas muzik prasekolah" },
-      "v5": { "title": "Sorotan Pertandingan", "student": "Pelajar D", "song": "Lagu Pertandingan", "desc": "Pertandingan nyanyian pelajar" },
-      "v6": { "title": "Persembahan Koir", "student": "Koir", "song": "Lagu Koir", "desc": "Persembahan koir kelas berkumpulan" }
+      "v1": { "title": "You Raise Me Up", "student": "Kai Xuan & Kai Lun", "song": "You Raise Me Up", "desc": "Persembahan duet pelajar" },
+      "v2": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" },
+      "v3": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" },
+      "v4": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" },
+      "v5": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" },
+      "v6": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" }
     }
   },
   "cta": {

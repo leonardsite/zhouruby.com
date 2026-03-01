@@ -116,21 +116,15 @@ export default function CoursesPage() {
     },
   ];
 
-  const videoData = [
-    { key: 'v1', youtubeId: 'BtJI8SekxHI' },
-    { key: 'v2', youtubeId: 'BaXUdtSIoME' },
-    { key: 'v3', youtubeId: 'HeuJ3oVR6RE' },
-    { key: 'v4' },
-    { key: 'v5' },
-    { key: 'v6' },
-  ] as const;
-  const showcaseVideos = videoData.map((v) => ({
-    title: t(`showcase.videos.${v.key}.title`),
-    studentName: t(`showcase.videos.${v.key}.student`),
-    songName: t(`showcase.videos.${v.key}.song`),
-    description: t(`showcase.videos.${v.key}.desc`),
-    youtubeId: 'youtubeId' in v ? v.youtubeId : undefined,
-  }));
+  const showcaseVideos = [
+    {
+      title: t('showcase.videos.v1.title'),
+      studentName: t('showcase.videos.v1.student'),
+      songName: t('showcase.videos.v1.song'),
+      description: t('showcase.videos.v1.desc'),
+      youtubeId: 'BtJI8SekxHI',
+    },
+  ];
 
   return (
     <>

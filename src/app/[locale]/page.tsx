@@ -8,39 +8,29 @@ import Image from 'next/image';
 export default function HomePage() {
   const t = useTranslations();
 
-  const videoData = [
-    { key: 'v1', youtubeId: 'BtJI8SekxHI' },
-    { key: 'v2', youtubeId: 'BaXUdtSIoME' },
-    { key: 'v3', youtubeId: 'HeuJ3oVR6RE' },
-    { key: 'v4' },
-  ] as const;
-  const showcaseVideos = videoData.map((v) => ({
-    title: t(`showcase.videos.${v.key}.title`),
-    studentName: t(`showcase.videos.${v.key}.student`),
-    songName: t(`showcase.videos.${v.key}.song`),
-    description: t(`showcase.videos.${v.key}.desc`),
-    youtubeId: 'youtubeId' in v ? v.youtubeId : undefined,
-  }));
-
   return (
     <>
       {/* ========== Hero Section ========== */}
-      <section className="wave-bg relative overflow-hidden">
-        {/* Decorative elements */}
-        <div className="absolute top-10 left-6 text-5xl opacity-30 animate-pulse select-none" aria-hidden="true">
-          🌿
+      <section className="relative overflow-hidden">
+        {/* Hero background image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/generated/hero-background.webp"
+            alt=""
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#d6dfc8]/60 via-transparent to-[#c8d4b8]/80" />
         </div>
-        <div className="absolute top-20 right-10 text-4xl opacity-25 animate-pulse select-none" aria-hidden="true">
-          🍃
+
+        {/* Floating decorative watercolor elements */}
+        <div className="absolute top-8 left-8 w-20 h-20 md:w-28 md:h-28 opacity-40 animate-float" aria-hidden="true">
+          <Image src="/images/generated/method-music-nature.webp" alt="" fill className="object-contain" />
         </div>
-        <div className="absolute bottom-16 left-16 text-3xl opacity-20 select-none" aria-hidden="true">
-          🌱
+        <div className="absolute bottom-20 right-8 w-16 h-16 md:w-24 md:h-24 opacity-30 animate-float-delayed" aria-hidden="true">
+          <Image src="/images/generated/method-scientific-vocal.webp" alt="" fill className="object-contain" />
         </div>
-        <div className="absolute bottom-10 right-20 text-5xl opacity-20 select-none" aria-hidden="true">
-          🐸
-        </div>
-        <div className="absolute top-1/3 right-1/4 w-16 h-16 rounded-full bg-brand-yellow/20" aria-hidden="true" />
-        <div className="absolute bottom-1/4 left-1/3 w-12 h-12 rounded-full bg-brand-pink/15" aria-hidden="true" />
 
         <div className="container mx-auto px-4 py-20 md:py-32 text-center relative z-10">
           {/* Logo */}
@@ -50,15 +40,15 @@ export default function HomePage() {
               alt="Ruby's Music Rainforest Logo"
               width={200}
               height={200}
-              className="w-36 h-36 md:w-48 md:h-48 object-contain drop-shadow-lg"
+              className="w-36 h-36 md:w-48 md:h-48 object-contain drop-shadow-lg animate-float-slow"
               priority
             />
           </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-brand-blue-dark mb-6">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-brand-blue-dark mb-6 drop-shadow-sm">
             {t('hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl text-gray-700 font-body max-w-2xl mx-auto mb-10">
+          <p className="text-xl md:text-2xl text-[#2d3b2d] font-body max-w-2xl mx-auto mb-10">
             {t('hero.subtitle')}
           </p>
 
@@ -98,7 +88,7 @@ export default function HomePage() {
               <h3 className="text-2xl md:text-3xl font-display font-semibold text-brand-green-dark mb-6">
                 {t('about.headline')}
               </h3>
-              <p className="text-gray-600 font-body text-lg leading-relaxed mb-6">
+              <p className="text-[#2d3b2d] font-body text-lg leading-relaxed mb-6">
                 {t('about.description')}
               </p>
               <p className="text-brand-blue-dark font-body font-semibold text-lg italic border-l-4 border-brand-green pl-4">
@@ -106,22 +96,125 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Teacher photo placeholder */}
+            {/* Teacher photo */}
             <div className="order-1 md:order-2 flex justify-center">
-              <div className="w-[300px] h-[400px] rounded-2xl border-4 border-brand-blue bg-gradient-to-br from-brand-blue/10 to-brand-green/10 flex flex-col items-center justify-center shadow-lg">
-                <div className="text-6xl mb-4">🎤</div>
-                <p className="font-display text-xl text-brand-blue-dark font-semibold">
-                  Ruby 老师
-                </p>
-                <p className="text-sm text-gray-400 mt-2 font-body">Photo placeholder</p>
+              <div className="relative w-[300px] h-[400px] rounded-2xl overflow-hidden shadow-xl ring-4 ring-white/50">
+                <Image
+                  src="/images/photos/ruby-photo-1.jpg"
+                  alt="Ruby Zhou - Music Teacher"
+                  fill
+                  className="object-cover"
+                  sizes="300px"
+                />
               </div>
+            </div>
+          </div>
+
+          {/* Achievement highlights */}
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div className="card overflow-hidden group">
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden mb-3">
+                <Image
+                  src="/images/photos/award-mv-thumbnail.jpg"
+                  alt="月亮下的太阳花 MV"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 640px) 100vw, 33vw"
+                />
+              </div>
+              <p className="font-display text-sm font-semibold text-brand-blue-dark text-center">
+                {t('rubyMusic.mvTitle')}
+              </p>
+            </div>
+
+            <div className="card overflow-hidden group">
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden mb-3">
+                <Image
+                  src="/images/photos/additional-photo.jpg"
+                  alt="Best Melody Award"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 640px) 100vw, 33vw"
+                />
+              </div>
+              <p className="font-display text-sm font-semibold text-brand-blue-dark text-center">
+                {t('rubyMusic.headline')}
+              </p>
+            </div>
+
+            <div className="card overflow-hidden group">
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden mb-3">
+                <Image
+                  src="/images/photos/img-3985.jpg"
+                  alt="SG:SW 2023"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 640px) 100vw, 33vw"
+                />
+              </div>
+              <p className="font-display text-sm font-semibold text-brand-blue-dark text-center">
+                SG:SW 2023
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== Ruby's Award-Winning Music Section ========== */}
+      <section className="bg-[#d0dcc0] py-16 md:py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="section-title">{t('rubyMusic.sectionTitle')}</h2>
+            <p className="text-2xl font-display font-semibold text-brand-green-dark mb-2">
+              {t('rubyMusic.headline')}
+            </p>
+            <p className="section-subtitle">{t('rubyMusic.subtitle')}</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Official MV */}
+            <div className="card overflow-hidden">
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden mb-4">
+                <iframe
+                  src="https://www.youtube.com/embed/BaXUdtSIoME"
+                  title={t('rubyMusic.mvTitle')}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full"
+                />
+              </div>
+              <h3 className="font-display text-lg font-bold text-brand-blue-dark">
+                {t('rubyMusic.mvTitle')}
+              </h3>
+              <p className="font-body text-sm text-[#2d3b2d]">
+                {t('rubyMusic.mvDesc')}
+              </p>
+            </div>
+
+            {/* Audio version */}
+            <div className="card overflow-hidden">
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden mb-4">
+                <iframe
+                  src="https://www.youtube.com/embed/HeuJ3oVR6RE"
+                  title={t('rubyMusic.audioTitle')}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full"
+                />
+              </div>
+              <h3 className="font-display text-lg font-bold text-brand-blue-dark">
+                {t('rubyMusic.audioTitle')}
+              </h3>
+              <p className="font-body text-sm text-[#2d3b2d]">
+                {t('rubyMusic.audioDesc')}
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* ========== Teaching Method Section ========== */}
-      <section id="method" className="bg-[#d0dcc0] py-16 md:py-24">
+      <section id="method" className="bg-[#c8d4b8] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('method.sectionTitle')}</h2>
@@ -129,34 +222,58 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {/* Scientific Vocals */}
-            <div className="card border-t-4 border-brand-green text-center">
-              <div className="text-5xl mb-4">🎤</div>
+            <div className="card border-t-4 border-brand-green text-center group">
+              <div className="relative w-24 h-24 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                <Image
+                  src="/images/generated/method-scientific-vocal.webp"
+                  alt={t('method.scientific.title')}
+                  fill
+                  className="object-contain"
+                  sizes="96px"
+                />
+              </div>
               <h3 className="text-xl font-display font-bold text-brand-blue-dark mb-3">
                 {t('method.scientific.title')}
               </h3>
-              <p className="text-gray-600 font-body">
+              <p className="text-[#2d3b2d] font-body">
                 {t('method.scientific.desc')}
               </p>
             </div>
 
             {/* Music & Nature */}
-            <div className="card border-t-4 border-brand-yellow text-center">
-              <div className="text-5xl mb-4">🌿</div>
+            <div className="card border-t-4 border-brand-yellow text-center group">
+              <div className="relative w-24 h-24 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                <Image
+                  src="/images/generated/method-music-nature.webp"
+                  alt={t('method.nature.title')}
+                  fill
+                  className="object-contain"
+                  sizes="96px"
+                />
+              </div>
               <h3 className="text-xl font-display font-bold text-brand-blue-dark mb-3">
                 {t('method.nature.title')}
               </h3>
-              <p className="text-gray-600 font-body">
+              <p className="text-[#2d3b2d] font-body">
                 {t('method.nature.desc')}
               </p>
             </div>
 
             {/* Music & Language */}
-            <div className="card border-t-4 border-brand-pink text-center">
-              <div className="text-5xl mb-4">🗣️</div>
+            <div className="card border-t-4 border-brand-pink text-center group">
+              <div className="relative w-24 h-24 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                <Image
+                  src="/images/generated/method-music-language.webp"
+                  alt={t('method.language.title')}
+                  fill
+                  className="object-contain"
+                  sizes="96px"
+                />
+              </div>
               <h3 className="text-xl font-display font-bold text-brand-blue-dark mb-3">
                 {t('method.language.title')}
               </h3>
-              <p className="text-gray-600 font-body">
+              <p className="text-[#2d3b2d] font-body">
                 {t('method.language.desc')}
               </p>
             </div>
@@ -174,12 +291,20 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {/* Adult Courses */}
-            <div className="card text-center group">
-              <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">🎵</div>
+            <div className="card text-center group overflow-hidden">
+              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden mb-4">
+                <Image
+                  src="/images/generated/course-adult-singing.webp"
+                  alt={t('featuredCourses.adult.title')}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
               <h3 className="text-xl font-display font-bold text-brand-blue-dark mb-3">
                 {t('featuredCourses.adult.title')}
               </h3>
-              <p className="text-gray-600 font-body mb-6">
+              <p className="text-[#2d3b2d] font-body mb-6">
                 {t('featuredCourses.adult.desc')}
               </p>
               <Link href="/courses" className="btn-secondary text-base">
@@ -188,12 +313,20 @@ export default function HomePage() {
             </div>
 
             {/* Kids Courses */}
-            <div className="card text-center group">
-              <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">🎶</div>
+            <div className="card text-center group overflow-hidden">
+              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden mb-4">
+                <Image
+                  src="/images/generated/course-children-music.webp"
+                  alt={t('featuredCourses.kids.title')}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
               <h3 className="text-xl font-display font-bold text-brand-blue-dark mb-3">
                 {t('featuredCourses.kids.title')}
               </h3>
-              <p className="text-gray-600 font-body mb-6">
+              <p className="text-[#2d3b2d] font-body mb-6">
                 {t('featuredCourses.kids.desc')}
               </p>
               <Link href="/courses" className="btn-secondary text-base">
@@ -202,12 +335,20 @@ export default function HomePage() {
             </div>
 
             {/* Early Childhood Courses */}
-            <div className="card text-center group">
-              <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">🎼</div>
+            <div className="card text-center group overflow-hidden">
+              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden mb-4">
+                <Image
+                  src="/images/generated/course-early-childhood.webp"
+                  alt={t('featuredCourses.early.title')}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
               <h3 className="text-xl font-display font-bold text-brand-blue-dark mb-3">
                 {t('featuredCourses.early.title')}
               </h3>
-              <p className="text-gray-600 font-body mb-6">
+              <p className="text-[#2d3b2d] font-body mb-6">
                 {t('featuredCourses.early.desc')}
               </p>
               <Link href="/courses" className="btn-secondary text-base">
@@ -229,17 +370,14 @@ export default function HomePage() {
             <p className="section-subtitle">{t('showcase.subtitle')}</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-10">
-            {showcaseVideos.map((video, index) => (
-              <VideoEmbed
-                key={index}
-                youtubeId={video.youtubeId}
-                title={video.title}
-                studentName={video.studentName}
-                songName={video.songName}
-                description={video.description}
-              />
-            ))}
+          <div className="max-w-2xl mx-auto mb-10">
+            <VideoEmbed
+              youtubeId="BtJI8SekxHI"
+              title={t('showcase.videos.v1.title')}
+              studentName={t('showcase.videos.v1.student')}
+              songName={t('showcase.videos.v1.song')}
+              description={t('showcase.videos.v1.desc')}
+            />
           </div>
 
           <div className="text-center">
@@ -252,18 +390,19 @@ export default function HomePage() {
 
       {/* ========== CTA Section ========== */}
       <section className="wave-bg relative py-20 md:py-28">
-        <div className="absolute top-6 right-12 text-4xl opacity-20 select-none" aria-hidden="true">
-          🌿
+        {/* Decorative floating elements */}
+        <div className="absolute top-6 right-12 w-16 h-16 opacity-20 animate-float" aria-hidden="true">
+          <Image src="/images/generated/decorative-monstera.webp" alt="" fill className="object-contain" />
         </div>
-        <div className="absolute bottom-8 left-10 text-3xl opacity-20 select-none" aria-hidden="true">
-          🐸
+        <div className="absolute bottom-8 left-10 w-14 h-14 opacity-20 animate-float-delayed" aria-hidden="true">
+          <Image src="/images/generated/method-music-nature.webp" alt="" fill className="object-contain" />
         </div>
 
         <div className="container mx-auto px-4 text-center relative z-10">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-blue-dark mb-4">
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-4 drop-shadow-md">
             {t('cta.title')}
           </h2>
-          <p className="text-lg text-gray-600 font-body mb-10">
+          <p className="text-lg text-white/90 font-body mb-10">
             {t('cta.subtitle')}
           </p>
           <a

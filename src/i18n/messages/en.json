@@ -50,6 +50,16 @@
     },
     "viewAll": "View All Courses"
   },
+  "rubyMusic": {
+    "sectionTitle": "Award-Winning Music",
+    "headline": "SG:SW 2023 Best Song Award",
+    "subtitle": "Ruby's original award-winning compositions",
+    "mvTitle": "The Moon and the Sunflower",
+    "mvSubtitle": "月亮下的太阳花",
+    "mvDesc": "SG:SW 2023 Best Song Award — Official Music Video",
+    "audioTitle": "The Moon and the Sunflower (Audio)",
+    "audioDesc": "SG:SW 2023 Best Song Award — Full Song"
+  },
   "showcase": {
     "sectionTitle": "Student Showcase",
     "headline": "Every student is one of a kind",
@@ -57,12 +67,12 @@
     "viewMore": "View More",
     "videoUnavailable": "Video coming soon",
     "videos": {
-      "v1": { "title": "Adult Student Performance", "student": "Student A", "song": "Pop Hits", "desc": "Adult student vocal performance showcase" },
-      "v2": { "title": "Kids Vocal Performance", "student": "Student B", "song": "School Songs", "desc": "Kids vocal class performance highlights" },
-      "v3": { "title": "Live Performance", "student": "Student C", "song": "Classic Songs", "desc": "Student live performance recording" },
-      "v4": { "title": "Early Childhood Music Class", "student": "Little Ones", "song": "Nursery Rhymes", "desc": "Early childhood music class highlights" },
-      "v5": { "title": "Competition Highlights", "student": "Student D", "song": "Competition Piece", "desc": "Student singing competition" },
-      "v6": { "title": "Choir Performance", "student": "Choir", "song": "Choir Piece", "desc": "Group class choir performance" }
+      "v1": { "title": "You Raise Me Up", "student": "Kai Xuan & Kai Lun", "song": "You Raise Me Up", "desc": "Student duet performance" },
+      "v2": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" },
+      "v3": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" },
+      "v4": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" },
+      "v5": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" },
+      "v6": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" }
     }
   },
   "cta": {

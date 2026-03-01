@@ -16,14 +16,16 @@
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center px-8 py-3 rounded-full
-           bg-brand-green text-white font-semibold text-lg
-           hover:bg-brand-green-dark transition-all duration-300
+           bg-brand-blue-dark text-white font-semibold text-lg
+           hover:bg-[#1a3a5c] transition-all duration-300
            shadow-lg hover:shadow-xl hover:-translate-y-0.5;
   }
   .btn-secondary {
     @apply inline-flex items-center justify-center px-8 py-3 rounded-full
-           border-2 border-brand-green text-brand-green-dark font-semibold text-lg
-           hover:bg-brand-green hover:text-white transition-all duration-300;
+           bg-white/90 text-brand-blue-dark font-semibold text-lg
+           border-2 border-brand-blue-dark/20
+           hover:bg-brand-blue-dark hover:text-white transition-all duration-300
+           shadow-md hover:shadow-xl hover:-translate-y-0.5;
   }
   .btn-whatsapp {
     @apply inline-flex items-center justify-center gap-3 px-10 py-4 rounded-full
@@ -35,12 +37,39 @@
     @apply text-3xl md:text-4xl font-display font-bold text-brand-blue-dark mb-4;
   }
   .section-subtitle {
-    @apply text-lg md:text-xl text-gray-700 mb-8;
+    @apply text-lg md:text-xl text-[#2d3b2d] mb-8;
   }
   .card {
-    @apply bg-[#e4ebd6] rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+    @apply bg-[#e8efda] rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
   }
   .wave-bg {
     background: linear-gradient(135deg, #7aab6b 0%, #9cc48d 40%, #b5d4a0 100%);
+  }
+}
+
+/* Floating animations for decorative elements */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(3deg); }
+}
+@keyframes float-delayed {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(-2deg); }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-float-delayed {
+    animation: float-delayed 8s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+  .animate-float-slow {
+    animation: float-slow 4s ease-in-out infinite;
   }
 }

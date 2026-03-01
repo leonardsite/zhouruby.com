@@ -6,6 +6,7 @@ Uses Google Gemini API to generate watercolor-style images for the website.
 
 import argparse
 import json
+import os
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -18,8 +19,8 @@ from google.genai import types
 # Configuration
 # ---------------------------------------------------------------------------
 
-API_KEY = "AIzaSyAiA-sTlhwJicKSICC_mAvOyUAhhHbxq-4"
-MODEL = "gemini-2.0-flash-exp"  # Supports image generation via response_modalities
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
+MODEL = "imagen-4.0-ultra-generate-001"  # Best quality image generation model
 
 PROMPTS_FILE = Path(__file__).parent / "prompts.json"
 OUTPUT_DIR = Path(__file__).parent.parent / "public" / "images" / "generated"
@@ -55,24 +56,21 @@ def generate_single_image(
     }
 
     try:
-        response = client.models.generate_content(
+        response = client.models.generate_images(
             model=MODEL,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_modalities=["IMAGE", "TEXT"],
+            prompt=prompt,
+            config=types.GenerateImagesConfig(
+                number_of_images=1,
+                aspect_ratio=aspect_ratio,
             ),
         )
 
-        # Walk through parts looking for image data
         image_saved = False
-        for part in response.candidates[0].content.parts:
-            if part.inline_data is not None:
-                # Convert to PIL Image via the helper and save
-                image = part.as_image()
-                output_path.parent.mkdir(parents=True, exist_ok=True)
-                image.save(str(output_path))
-                image_saved = True
-                break
+        for img in response.generated_images:
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            img.image.save(str(output_path))
+            image_saved = True
+            break
 
         if image_saved:
             result["success"] = True

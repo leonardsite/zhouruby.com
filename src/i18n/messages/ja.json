@@ -50,6 +50,16 @@
     },
     "viewAll": "すべてのコースを見る"
   },
+  "rubyMusic": {
+    "sectionTitle": "受賞作品",
+    "headline": "SG:SW 2023 最優秀楽曲賞",
+    "subtitle": "Ruby先生のオリジナル受賞楽曲",
+    "mvTitle": "月下の向日葵",
+    "mvSubtitle": "The Moon and the Sunflower",
+    "mvDesc": "SG:SW 2023 最優秀楽曲賞 公式ミュージックビデオ",
+    "audioTitle": "月下の向日葵（オーディオ版）",
+    "audioDesc": "SG:SW 2023 最優秀楽曲賞 フル楽曲"
+  },
   "showcase": {
     "sectionTitle": "生徒の実績",
     "headline": "一人ひとりの生徒がかけがえのない存在",
@@ -57,12 +67,12 @@
     "viewMore": "もっと見る",
     "videoUnavailable": "動画は近日公開",
     "videos": {
-      "v1": { "title": "大人の生徒パフォーマンス", "student": "生徒A", "song": "ポップヒット", "desc": "大人の生徒によるボーカルパフォーマンス" },
-      "v2": { "title": "キッズボーカル発表", "student": "生徒B", "song": "学校の歌", "desc": "キッズボーカルクラスのパフォーマンス" },
-      "v3": { "title": "ライブパフォーマンス", "student": "生徒C", "song": "クラシック曲", "desc": "生徒のライブパフォーマンス記録" },
-      "v4": { "title": "幼児音楽クラス", "student": "お子さまたち", "song": "童謡メドレー", "desc": "幼児音楽クラスのハイライト" },
-      "v5": { "title": "コンテストハイライト", "student": "生徒D", "song": "コンテスト曲", "desc": "生徒の歌唱コンテスト" },
-      "v6": { "title": "合唱団パフォーマンス", "student": "合唱団", "song": "合唱曲", "desc": "グループクラスの合唱パフォーマンス" }
+      "v1": { "title": "You Raise Me Up", "student": "Kai Xuan & Kai Lun", "song": "You Raise Me Up", "desc": "生徒デュエットパフォーマンス" },
+      "v2": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" },
+      "v3": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" },
+      "v4": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" },
+      "v5": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" },
+      "v6": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" }
     }
   },
   "cta": {
