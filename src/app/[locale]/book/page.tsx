@@ -107,16 +107,12 @@ export default function BookPage() {
 
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
             <iframe
-              src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID%40group.calendar.google.com&ctz=Asia%2FSingapore&mode=WEEK&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=0"
+              src="https://calendar.google.com/calendar/embed?src=rubyzhou25%40gmail.com&ctz=Asia%2FSingapore&mode=WEEK&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=0"
               className="w-full border-0"
               style={{ minHeight: '600px' }}
               title={t('book.calendarTitle')}
             />
           </div>
-
-          <p className="text-center text-sm text-gray-400 font-body mt-4 italic">
-            * Replace the calendar URL above with your actual Google Calendar embed URL
-          </p>
         </div>
       </section>
     </>
