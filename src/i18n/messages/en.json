@@ -54,7 +54,16 @@
     "sectionTitle": "Student Showcase",
     "headline": "Every student is one of a kind",
     "subtitle": "Your progress is our greatest pride",
-    "viewMore": "View More"
+    "viewMore": "View More",
+    "videoUnavailable": "Video coming soon",
+    "videos": {
+      "v1": { "title": "Adult Student Performance", "student": "Student A", "song": "Pop Hits", "desc": "Adult student vocal performance showcase" },
+      "v2": { "title": "Kids Vocal Performance", "student": "Student B", "song": "School Songs", "desc": "Kids vocal class performance highlights" },
+      "v3": { "title": "Live Performance", "student": "Student C", "song": "Classic Songs", "desc": "Student live performance recording" },
+      "v4": { "title": "Early Childhood Music Class", "student": "Little Ones", "song": "Nursery Rhymes", "desc": "Early childhood music class highlights" },
+      "v5": { "title": "Competition Highlights", "student": "Student D", "song": "Competition Piece", "desc": "Student singing competition" },
+      "v6": { "title": "Choir Performance", "student": "Choir", "song": "Choir Piece", "desc": "Group class choir performance" }
+    }
   },
   "cta": {
     "title": "Ready to start your musical journey?",
@@ -96,7 +105,12 @@
       "language": "Language",
       "bilingual": "Chinese / English bilingual"
     },
-    "bookThis": "Book This Course"
+    "bookThis": "Book This Course",
+    "suitable": {
+      "adult": "Adults 18+",
+      "kids": "Children & teens aged 6-17",
+      "early": "Toddlers 0-5 (with parent)"
+    }
   },
   "book": {
     "pageTitle": "Book a Lesson",

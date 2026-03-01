@@ -54,7 +54,16 @@
     "sectionTitle": "学员成果",
     "headline": "每位学生都是独一无二的",
     "subtitle": "你们的进步是我们最大的骄傲",
-    "viewMore": "查看更多成果"
+    "viewMore": "查看更多成果",
+    "videoUnavailable": "视频即将上线",
+    "videos": {
+      "v1": { "title": "成人学员演唱", "student": "学员A", "song": "流行金曲", "desc": "成人学员精彩演唱展示" },
+      "v2": { "title": "儿童声乐表演", "student": "学员B", "song": "校园歌曲", "desc": "儿童声乐课堂精彩表演" },
+      "v3": { "title": "学员演出现场", "student": "学员C", "song": "经典曲目", "desc": "学员现场演出记录" },
+      "v4": { "title": "早教亲子音乐课", "student": "小朋友们", "song": "儿歌联唱", "desc": "早教音乐课堂精彩瞬间" },
+      "v5": { "title": "学员比赛精彩瞬间", "student": "学员D", "song": "比赛曲目", "desc": "学员参加歌唱比赛" },
+      "v6": { "title": "合唱团表演", "student": "合唱团", "song": "合唱曲目", "desc": "小组团体课合唱表演" }
+    }
   },
   "cta": {
     "title": "准备好开启你的音乐旅程了吗？",
@@ -96,7 +105,12 @@
       "language": "教学语言",
       "bilingual": "中文 / 英文 双语"
     },
-    "bookThis": "预约此课程"
+    "bookThis": "预约此课程",
+    "suitable": {
+      "adult": "18岁以上成人",
+      "kids": "6-17岁儿童及青少年",
+      "early": "0-5岁幼儿（家长陪同）"
+    }
   },
   "book": {
     "pageTitle": "预约课程",

@@ -13,7 +13,7 @@ export default function CoursesPage() {
       key: 'adult' as const,
       label: t('courses.tabs.adult'),
       icon: '🎵',
-      suitable: '18岁以上成人',
+      suitable: t('courses.suitable.adult'),
       courses: [
         {
           key: 'adult-private',
@@ -48,7 +48,7 @@ export default function CoursesPage() {
       key: 'kids' as const,
       label: t('courses.tabs.kids'),
       icon: '🎶',
-      suitable: '6-17岁儿童及青少年',
+      suitable: t('courses.suitable.kids'),
       courses: [
         {
           key: 'kids-private',
@@ -83,7 +83,7 @@ export default function CoursesPage() {
       key: 'early' as const,
       label: t('courses.tabs.early'),
       icon: '🎼',
-      suitable: '0-5岁幼儿（家长陪同）',
+      suitable: t('courses.suitable.early'),
       courses: [
         {
           key: 'early-private',
@@ -116,14 +116,13 @@ export default function CoursesPage() {
     },
   ];
 
-  const showcaseVideos = [
-    { title: '成人学员演唱', studentName: '学员A', songName: '流行金曲', description: '成人学员精彩演唱展示' },
-    { title: '儿童声乐表演', studentName: '学员B', songName: '校园歌曲', description: '儿童声乐课堂精彩表演' },
-    { title: '学员演出现场', studentName: '学员C', songName: '经典曲目', description: '学员现场演出记录' },
-    { title: '早教亲子音乐课', studentName: '小朋友们', songName: '儿歌联唱', description: '早教音乐课堂精彩瞬间' },
-    { title: '学员比赛精彩瞬间', studentName: '学员D', songName: '比赛曲目', description: '学员参加歌唱比赛' },
-    { title: '合唱团表演', studentName: '合唱团', songName: '合唱曲目', description: '小组团体课合唱表演' },
-  ];
+  const videoKeys = ['v1', 'v2', 'v3', 'v4', 'v5', 'v6'] as const;
+  const showcaseVideos = videoKeys.map((key) => ({
+    title: t(`showcase.videos.${key}.title`),
+    studentName: t(`showcase.videos.${key}.student`),
+    songName: t(`showcase.videos.${key}.song`),
+    description: t(`showcase.videos.${key}.desc`),
+  }));
 
   return (
     <>

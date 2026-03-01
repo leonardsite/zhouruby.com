@@ -8,12 +8,13 @@ import Image from 'next/image';
 export default function HomePage() {
   const t = useTranslations();
 
-  const showcaseVideos = [
-    { title: '学员演唱展示', studentName: '学员A', songName: '流行歌曲', description: '成人学员课后演唱展示' },
-    { title: '儿童声乐表演', studentName: '学员B', songName: '校园歌曲', description: '儿童声乐课堂表演' },
-    { title: '成人学员成果', studentName: '学员C', songName: '经典金曲', description: '成人学员学习成果' },
-    { title: '早教音乐课堂', studentName: '小朋友', songName: '儿歌', description: '早教亲子音乐课精彩瞬间' },
-  ];
+  const videoKeys = ['v1', 'v2', 'v3', 'v4'] as const;
+  const showcaseVideos = videoKeys.map((key) => ({
+    title: t(`showcase.videos.${key}.title`),
+    studentName: t(`showcase.videos.${key}.student`),
+    songName: t(`showcase.videos.${key}.song`),
+    description: t(`showcase.videos.${key}.desc`),
+  }));
 
   return (
     <>

@@ -54,7 +54,16 @@
     "sectionTitle": "Pencapaian Pelajar",
     "headline": "Setiap pelajar adalah unik dan istimewa",
     "subtitle": "Kemajuan anda adalah kebanggaan terbesar kami",
-    "viewMore": "Lihat Lagi"
+    "viewMore": "Lihat Lagi",
+    "videoUnavailable": "Video akan datang",
+    "videos": {
+      "v1": { "title": "Persembahan Pelajar Dewasa", "student": "Pelajar A", "song": "Lagu Pop", "desc": "Persembahan vokal pelajar dewasa" },
+      "v2": { "title": "Persembahan Vokal Kanak-kanak", "student": "Pelajar B", "song": "Lagu Sekolah", "desc": "Sorotan persembahan kelas vokal kanak-kanak" },
+      "v3": { "title": "Persembahan Langsung", "student": "Pelajar C", "song": "Lagu Klasik", "desc": "Rakaman persembahan langsung pelajar" },
+      "v4": { "title": "Kelas Muzik Prasekolah", "student": "Si Kecil", "song": "Lagu Kanak-kanak", "desc": "Sorotan kelas muzik prasekolah" },
+      "v5": { "title": "Sorotan Pertandingan", "student": "Pelajar D", "song": "Lagu Pertandingan", "desc": "Pertandingan nyanyian pelajar" },
+      "v6": { "title": "Persembahan Koir", "student": "Koir", "song": "Lagu Koir", "desc": "Persembahan koir kelas berkumpulan" }
+    }
   },
   "cta": {
     "title": "Bersedia untuk memulakan perjalanan muzik anda?",
@@ -96,7 +105,12 @@
       "language": "Bahasa Pengajaran",
       "bilingual": "Cina / Inggeris dwibahasa"
     },
-    "bookThis": "Tempah Kursus Ini"
+    "bookThis": "Tempah Kursus Ini",
+    "suitable": {
+      "adult": "Dewasa 18+",
+      "kids": "Kanak-kanak & remaja 6-17 tahun",
+      "early": "Kanak-kanak 0-5 tahun (dengan ibu bapa)"
+    }
   },
   "book": {
     "pageTitle": "Tempah Kelas",
