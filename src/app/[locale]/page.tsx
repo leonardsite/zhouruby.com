@@ -24,6 +24,19 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#d6dfc8]/60 via-transparent to-[#c8d4b8]/80" />
         </div>
 
+        {/* Animated floating musical notes (Veo-generated video) */}
+        <div className="absolute inset-0 pointer-events-none opacity-30 mix-blend-multiply" aria-hidden="true">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src="/images/animated/musical-notes-float.mp4" type="video/mp4" />
+          </video>
+        </div>
+
         {/* Floating decorative watercolor elements */}
         <div className="absolute top-8 left-8 w-20 h-20 md:w-28 md:h-28 opacity-40 animate-float" aria-hidden="true">
           <Image src="/images/generated/method-music-nature.webp" alt="" fill className="object-contain" />
@@ -214,8 +227,21 @@ export default function HomePage() {
       </section>
 
       {/* ========== Teaching Method Section ========== */}
-      <section id="method" className="bg-[#c8d4b8] py-16 md:py-24">
-        <div className="container mx-auto px-4">
+      <section id="method" className="bg-[#c8d4b8] py-16 md:py-24 relative overflow-hidden">
+        {/* Animated leaves background */}
+        <div className="absolute inset-0 pointer-events-none opacity-15" aria-hidden="true">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src="/images/animated/leaves-sway.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('method.sectionTitle')}</h2>
           </div>
@@ -389,7 +415,20 @@ export default function HomePage() {
       </section>
 
       {/* ========== CTA Section ========== */}
-      <section className="wave-bg relative py-20 md:py-28">
+      <section className="wave-bg relative py-20 md:py-28 overflow-hidden">
+        {/* Animated logo background */}
+        <div className="absolute inset-0 pointer-events-none opacity-10" aria-hidden="true">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src="/images/animated/logo-float.mp4" type="video/mp4" />
+          </video>
+        </div>
+
         {/* Decorative floating elements */}
         <div className="absolute top-6 right-12 w-16 h-16 opacity-20 animate-float" aria-hidden="true">
           <Image src="/images/generated/decorative-monstera.webp" alt="" fill className="object-contain" />
