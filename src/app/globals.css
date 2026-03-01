@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply font-body text-brand-black bg-white;
+    @apply font-body text-brand-black bg-[#f5f7f2];
   }
 }
 
@@ -38,7 +38,7 @@
     @apply text-lg md:text-xl text-gray-600 mb-8;
   }
   .card {
-    @apply bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+    @apply bg-[#fafcf8] rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
   }
   .wave-bg {
     background: linear-gradient(135deg, #ADD8E6 0%, #e8f4f8 50%, #f0faf0 100%);

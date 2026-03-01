@@ -76,14 +76,14 @@ export default function HomePage() {
           <svg viewBox="0 0 1440 60" className="w-full h-auto" preserveAspectRatio="none">
             <path
               d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,40 1440,35 L1440,60 L0,60 Z"
-              fill="white"
+              fill="#f0f5ec"
             />
           </svg>
         </div>
       </section>
 
       {/* ========== About Section ========== */}
-      <section id="about" className="bg-white py-16 md:py-24">
+      <section id="about" className="bg-[#f0f5ec] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Text content */}
@@ -115,7 +115,7 @@ export default function HomePage() {
       </section>
 
       {/* ========== Teaching Method Section ========== */}
-      <section id="method" className="bg-gray-50 py-16 md:py-24">
+      <section id="method" className="bg-[#eaf2e6] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('method.sectionTitle')}</h2>
@@ -159,7 +159,7 @@ export default function HomePage() {
       </section>
 
       {/* ========== Featured Courses Section ========== */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="bg-[#f5f7f2] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('featuredCourses.sectionTitle')}</h2>
@@ -213,7 +213,7 @@ export default function HomePage() {
       </section>
 
       {/* ========== Student Showcase Section ========== */}
-      <section id="showcase" className="bg-gray-50 py-16 md:py-24">
+      <section id="showcase" className="bg-[#eef3ea] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('showcase.sectionTitle')}</h2>

@@ -43,7 +43,7 @@ export default function VideoEmbed({
   const hasBothPlatforms = !!youtubeId && !!bilibiliId;
 
   return (
-    <div className="overflow-hidden rounded-xl bg-white shadow-lg">
+    <div className="overflow-hidden rounded-xl bg-[#fafcf8] shadow-lg">
       {/* Video Player */}
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
         {platform === 'youtube' && youtubeId && !ytError && (

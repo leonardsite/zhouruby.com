@@ -141,14 +141,14 @@ export default function CoursesPage() {
           <svg viewBox="0 0 1440 60" className="w-full h-auto" preserveAspectRatio="none">
             <path
               d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,40 1440,35 L1440,60 L0,60 Z"
-              fill="#f9fafb"
+              fill="#eaf2e6"
             />
           </svg>
         </div>
       </section>
 
       {/* ========== Course Tabs + Cards ========== */}
-      <section className="bg-gray-50 py-16 md:py-20">
+      <section className="bg-[#eaf2e6] py-16 md:py-20">
         <div className="container mx-auto px-4">
           <CoursesTabs
             categories={categories}
@@ -162,7 +162,7 @@ export default function CoursesPage() {
       </section>
 
       {/* ========== Student Showcase ========== */}
-      <section id="results" className="bg-white py-16 md:py-24">
+      <section id="results" className="bg-[#f0f5ec] py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">{t('showcase.sectionTitle')}</h2>
