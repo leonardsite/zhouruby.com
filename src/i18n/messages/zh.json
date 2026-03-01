@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "about": "关于我",
+    "courses": "课程介绍",
+    "showcase": "学员成果",
+    "book": "预约课程"
+  },
+  "hero": {
+    "title": "Ruby's Music Rainforest",
+    "subtitle": "在音乐的雨林里，发现属于你的美妙歌喉",
+    "exploreCourses": "探索我们的课程",
+    "bookTrial": "预约体验课"
+  },
+  "about": {
+    "sectionTitle": "关于我",
+    "headline": "最小的萤火，也能点亮音乐的梦想",
+    "description": "Ruby老师，毕业于XX音乐学院，拥有十余年声乐教学经验。她相信每个人都有独特的声音，就像雨林中每只青蛙都有自己的歌声。通过科学的发声方法与自然的音乐理念，帮助学生找到属于自己的声音。",
+    "philosophy": "教学理念：让音乐回归自然，让歌声发自内心。"
+  },
+  "method": {
+    "sectionTitle": "教学特色",
+    "scientific": {
+      "title": "科学发声",
+      "desc": "像小青蛙适用声囊发声一般，教授最科学的自然共鸣"
+    },
+    "nature": {
+      "title": "音乐与自然",
+      "desc": "培养乐感与自然节奏共振，激发表演天赋"
+    },
+    "language": {
+      "title": "音乐与语言",
+      "desc": "通过音乐来学习华文，寓教于乐"
+    }
+  },
+  "featuredCourses": {
+    "sectionTitle": "精选课程",
+    "subtitle": "为不同年龄与阶段设计的课程",
+    "adult": {
+      "title": "成人课程",
+      "desc": "发现你的歌唱潜力，从零基础到自信表演"
+    },
+    "kids": {
+      "title": "儿童课程",
+      "desc": "在音乐中成长，培养自信与表达力"
+    },
+    "early": {
+      "title": "早教课程",
+      "desc": "用音乐启蒙，开启宝宝的艺术旅程"
+    },
+    "viewAll": "查看全部课程"
+  },
+  "showcase": {
+    "sectionTitle": "学员成果",
+    "headline": "每位学生都是独一无二的",
+    "subtitle": "你们的进步是我们最大的骄傲",
+    "viewMore": "查看更多成果"
+  },
+  "cta": {
+    "title": "准备好开启你的音乐旅程了吗？",
+    "subtitle": "联系我们，开始你的第一步",
+    "whatsapp": "WhatsApp 咨询"
+  },
+  "courses": {
+    "pageTitle": "课程介绍",
+    "pageSubtitle": "为每个年龄段定制的课程",
+    "tabs": {
+      "adult": "成人课程",
+      "kids": "儿童课程",
+      "early": "早教课程"
+    },
+    "courseTypes": {
+      "private": {
+        "title": "一对一精品私教",
+        "desc": "量身定制的个人声乐课程，根据你的声音特点和目标设计专属教学方案",
+        "duration": "45分钟/节",
+        "format": "线下/线上"
+      },
+      "duo": {
+        "title": "一对二精品好友行",
+        "desc": "和好友一起学习，互相激励进步，享受音乐的快乐",
+        "duration": "60分钟/节",
+        "format": "线下"
+      },
+      "group": {
+        "title": "小组团体课",
+        "desc": "3-10位同学一起欢唱，感受合唱的魅力与团队协作",
+        "duration": "75分钟/节",
+        "format": "线下"
+      }
+    },
+    "details": {
+      "suitable": "适合对象",
+      "format": "上课形式",
+      "duration": "课时",
+      "language": "教学语言",
+      "bilingual": "中文 / 英文 双语"
+    },
+    "bookThis": "预约此课程"
+  },
+  "book": {
+    "pageTitle": "预约课程",
+    "pageSubtitle": "开启你的音乐旅程",
+    "trialTitle": "体验课包含",
+    "trial1": "声音条件评估",
+    "trial2": "发声技巧指导",
+    "trial3": "个性化音乐学习方案",
+    "trial4": "课程咨询",
+    "whatsappTitle": "立即联系 Ruby 老师",
+    "whatsappDesc": "点击下方按钮，通过 WhatsApp 直接预约体验课",
+    "whatsappBtn": "WhatsApp 预约",
+    "calendarTitle": "查看可约时间",
+    "calendarDesc": "以下日历显示Ruby老师的排课情况，方便您选择合适的时间"
+  },
+  "footer": {
+    "contact": "联系我们",
+    "followUs": "关注我们",
+    "rights": "\u00a9 2026 Ruby's Music Rainforest. 保留所有权利。",
+    "privacy": "隐私政策",
+    "location": "新加坡"
+  }
+}

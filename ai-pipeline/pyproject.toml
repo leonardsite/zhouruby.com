@@ -1,0 +1,12 @@
+[project]
+name = "zhouruby-ai-pipeline"
+version = "1.0.0"
+description = "AI image generation pipeline for zhouruby.com using Google Gemini"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.0.0",
+    "Pillow>=10.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]

@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "about": "Tentang Saya",
+    "courses": "Kursus",
+    "showcase": "Pencapaian Pelajar",
+    "book": "Tempah Kelas"
+  },
+  "hero": {
+    "title": "Ruby's Music Rainforest",
+    "subtitle": "Di hutan hujan muzik, temui suara indah anda yang tersendiri",
+    "exploreCourses": "Terokai Kursus Kami",
+    "bookTrial": "Tempah Kelas Percubaan"
+  },
+  "about": {
+    "sectionTitle": "Tentang Saya",
+    "headline": "Cahaya sekecil mana pun mampu menerangi impian muzik",
+    "description": "Cikgu Ruby merupakan lulusan Kolej Muzik XX dan mempunyai pengalaman mengajar vokal lebih daripada sepuluh tahun. Beliau percaya setiap orang mempunyai suara yang unik, sama seperti setiap katak di hutan hujan mempunyai nyanyiannya sendiri. Melalui teknik vokal saintifik dan pendekatan muzik yang semula jadi, beliau membantu pelajar menemui suara mereka yang sebenar.",
+    "philosophy": "Falsafah pengajaran: Biarkan muzik kembali ke alam semula jadi, biarkan nyanyian lahir dari hati."
+  },
+  "method": {
+    "sectionTitle": "Pendekatan Kami",
+    "scientific": {
+      "title": "Latihan Vokal Saintifik",
+      "desc": "Seperti katak kecil menggunakan kantung vokalnya untuk menyanyi, kami mengajar kaedah resonans semula jadi yang paling saintifik"
+    },
+    "nature": {
+      "title": "Muzik & Alam",
+      "desc": "Memupuk daya muzik selaras dengan irama alam dan membuka potensi persembahan anda"
+    },
+    "language": {
+      "title": "Muzik & Bahasa",
+      "desc": "Belajar bahasa Cina melalui muzik dengan cara yang menyeronokkan"
+    }
+  },
+  "featuredCourses": {
+    "sectionTitle": "Kursus Pilihan",
+    "subtitle": "Kursus yang direka untuk pelbagai peringkat umur",
+    "adult": {
+      "title": "Kursus Dewasa",
+      "desc": "Temui potensi nyanyian anda, dari asas sifar hingga persembahan yang yakin"
+    },
+    "kids": {
+      "title": "Kursus Kanak-kanak",
+      "desc": "Membesar melalui muzik, membina keyakinan dan daya ekspresi"
+    },
+    "early": {
+      "title": "Kursus Prasekolah",
+      "desc": "Celik muzik untuk memulakan perjalanan seni si kecil"
+    },
+    "viewAll": "Lihat Semua Kursus"
+  },
+  "showcase": {
+    "sectionTitle": "Pencapaian Pelajar",
+    "headline": "Setiap pelajar adalah unik dan istimewa",
+    "subtitle": "Kemajuan anda adalah kebanggaan terbesar kami",
+    "viewMore": "Lihat Lagi"
+  },
+  "cta": {
+    "title": "Bersedia untuk memulakan perjalanan muzik anda?",
+    "subtitle": "Hubungi kami dan ambil langkah pertama anda",
+    "whatsapp": "Hubungi Melalui WhatsApp"
+  },
+  "courses": {
+    "pageTitle": "Kursus Kami",
+    "pageSubtitle": "Kursus yang disesuaikan untuk setiap peringkat umur",
+    "tabs": {
+      "adult": "Kursus Dewasa",
+      "kids": "Kursus Kanak-kanak",
+      "early": "Kursus Prasekolah"
+    },
+    "courseTypes": {
+      "private": {
+        "title": "Kelas Persendirian 1-lawan-1",
+        "desc": "Pelajaran vokal yang disesuaikan khas mengikut ciri-ciri suara dan matlamat peribadi anda",
+        "duration": "45 min / kelas",
+        "format": "Bersemuka / Dalam Talian"
+      },
+      "duo": {
+        "title": "Kelas Duo (Bawa Kawan)",
+        "desc": "Belajar bersama kawan, saling memberi semangat, dan nikmati keseronokan muzik",
+        "duration": "60 min / kelas",
+        "format": "Bersemuka"
+      },
+      "group": {
+        "title": "Kelas Berkumpulan",
+        "desc": "Menyanyi bersama 3-10 rakan sekelas, rasai keajaiban nyanyian berkumpulan dan kerja berpasukan",
+        "duration": "75 min / kelas",
+        "format": "Bersemuka"
+      }
+    },
+    "details": {
+      "suitable": "Sesuai untuk",
+      "format": "Format",
+      "duration": "Tempoh",
+      "language": "Bahasa Pengajaran",
+      "bilingual": "Cina / Inggeris dwibahasa"
+    },
+    "bookThis": "Tempah Kursus Ini"
+  },
+  "book": {
+    "pageTitle": "Tempah Kelas",
+    "pageSubtitle": "Mulakan perjalanan muzik anda",
+    "trialTitle": "Kelas percubaan merangkumi",
+    "trial1": "Penilaian keadaan vokal",
+    "trial2": "Panduan teknik vokal",
+    "trial3": "Pelan pembelajaran muzik peribadi",
+    "trial4": "Perundingan kursus",
+    "whatsappTitle": "Hubungi Cikgu Ruby sekarang",
+    "whatsappDesc": "Tekan butang di bawah untuk menempah kelas percubaan anda terus melalui WhatsApp",
+    "whatsappBtn": "Tempah Melalui WhatsApp",
+    "calendarTitle": "Lihat masa yang tersedia",
+    "calendarDesc": "Kalendar di bawah menunjukkan jadual Cikgu Ruby supaya anda boleh memilih masa yang sesuai"
+  },
+  "footer": {
+    "contact": "Hubungi Kami",
+    "followUs": "Ikuti Kami",
+    "rights": "\u00a9 2026 Ruby's Music Rainforest. Hak cipta terpelihara.",
+    "privacy": "Dasar Privasi",
+    "location": "Singapura"
+  }
+}

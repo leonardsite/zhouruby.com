@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "about": "About",
+    "courses": "Courses",
+    "showcase": "Showcase",
+    "book": "Book a Lesson"
+  },
+  "hero": {
+    "title": "Ruby's Music Rainforest",
+    "subtitle": "Discover your beautiful voice in the rainforest of music",
+    "exploreCourses": "Explore Our Courses",
+    "bookTrial": "Book a Trial Lesson"
+  },
+  "about": {
+    "sectionTitle": "About Me",
+    "headline": "Even the smallest spark can light up a musical dream",
+    "description": "Teacher Ruby graduated from XX Conservatory of Music and has over ten years of vocal teaching experience. She believes everyone has a unique voice, just like every frog in the rainforest has its own song. Through scientific vocal techniques and a natural approach to music, she helps students discover their own voice.",
+    "philosophy": "Teaching philosophy: Let music return to nature, let singing come from the heart."
+  },
+  "method": {
+    "sectionTitle": "Our Approach",
+    "scientific": {
+      "title": "Scientific Vocal Training",
+      "desc": "Just as a little frog uses its vocal sac to sing, we teach the most scientific methods of natural resonance"
+    },
+    "nature": {
+      "title": "Music & Nature",
+      "desc": "Cultivate musicality in harmony with natural rhythms and unlock your performance potential"
+    },
+    "language": {
+      "title": "Music & Language",
+      "desc": "Learn Chinese through music in an engaging and joyful way"
+    }
+  },
+  "featuredCourses": {
+    "sectionTitle": "Featured Courses",
+    "subtitle": "Courses designed for different ages and stages",
+    "adult": {
+      "title": "Adult Courses",
+      "desc": "Discover your singing potential, from beginner to confident performer"
+    },
+    "kids": {
+      "title": "Kids Courses",
+      "desc": "Grow through music, building confidence and expressiveness"
+    },
+    "early": {
+      "title": "Early Childhood Courses",
+      "desc": "Musical enlightenment to start your little one's artistic journey"
+    },
+    "viewAll": "View All Courses"
+  },
+  "showcase": {
+    "sectionTitle": "Student Showcase",
+    "headline": "Every student is one of a kind",
+    "subtitle": "Your progress is our greatest pride",
+    "viewMore": "View More"
+  },
+  "cta": {
+    "title": "Ready to start your musical journey?",
+    "subtitle": "Get in touch and take the first step",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "courses": {
+    "pageTitle": "Our Courses",
+    "pageSubtitle": "Tailored courses for every age group",
+    "tabs": {
+      "adult": "Adult Courses",
+      "kids": "Kids Courses",
+      "early": "Early Childhood"
+    },
+    "courseTypes": {
+      "private": {
+        "title": "Private 1-on-1 Lessons",
+        "desc": "Personalised vocal lessons designed around your unique voice and goals",
+        "duration": "45 min / lesson",
+        "format": "In-person / Online"
+      },
+      "duo": {
+        "title": "Duo Lessons (Bring a Friend)",
+        "desc": "Learn together with a friend, motivate each other, and enjoy the joy of music",
+        "duration": "60 min / lesson",
+        "format": "In-person"
+      },
+      "group": {
+        "title": "Group Lessons",
+        "desc": "Sing with 3-10 classmates, experience the magic of ensemble singing and teamwork",
+        "duration": "75 min / lesson",
+        "format": "In-person"
+      }
+    },
+    "details": {
+      "suitable": "Suitable for",
+      "format": "Format",
+      "duration": "Duration",
+      "language": "Language",
+      "bilingual": "Chinese / English bilingual"
+    },
+    "bookThis": "Book This Course"
+  },
+  "book": {
+    "pageTitle": "Book a Lesson",
+    "pageSubtitle": "Start your musical journey",
+    "trialTitle": "Your trial lesson includes",
+    "trial1": "Vocal assessment",
+    "trial2": "Vocal technique guidance",
+    "trial3": "Personalised music learning plan",
+    "trial4": "Course consultation",
+    "whatsappTitle": "Contact Teacher Ruby now",
+    "whatsappDesc": "Tap the button below to book your trial lesson directly via WhatsApp",
+    "whatsappBtn": "Book via WhatsApp",
+    "calendarTitle": "View available times",
+    "calendarDesc": "The calendar below shows Teacher Ruby's schedule so you can choose a time that suits you"
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "\u00a9 2026 Ruby's Music Rainforest. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "location": "Singapore"
+  }
+}

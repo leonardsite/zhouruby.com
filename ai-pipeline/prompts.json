@@ -1,0 +1,76 @@
+{
+  "hero": [
+    {
+      "id": "hero-background",
+      "filename": "hero-background.png",
+      "prompt": "A dreamy watercolor illustration of a tropical rainforest with musical notes floating among monstera leaves, light blue and green tones, soft bokeh, wide cinematic composition",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "studio-scene",
+      "filename": "studio-scene.png",
+      "prompt": "A warm, inviting music studio with a microphone and tropical plants, watercolor style, green and blue tones, cozy atmosphere with natural light streaming through windows",
+      "aspect_ratio": "4:3"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-adult-singing",
+      "filename": "course-adult-singing.png",
+      "prompt": "Watercolor illustration of an adult woman singing joyfully with a microphone, surrounded by soft tropical leaves and musical notes, warm green and blue color palette, inviting and professional atmosphere",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "id": "course-children-music",
+      "filename": "course-children-music.png",
+      "prompt": "Watercolor illustration of happy children in a music class playing small instruments like tambourines and xylophones, surrounded by colorful musical notes and tropical plant decorations, light blue and green tones, cheerful and playful",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "id": "course-early-childhood",
+      "filename": "course-early-childhood.png",
+      "prompt": "Watercolor illustration of a toddler and parent in a gentle music activity, soft pastel tropical leaves in the background, small musical instruments scattered around, nurturing and warm atmosphere, light green and sky blue tones",
+      "aspect_ratio": "4:3"
+    }
+  ],
+  "methods": [
+    {
+      "id": "method-scientific-vocal",
+      "filename": "method-scientific-vocal.png",
+      "prompt": "Minimalist watercolor icon of a human throat and vocal cords with sound waves emanating outward, scientific diagram style blended with artistic watercolor strokes, blue and teal tones, clean white background",
+      "aspect_ratio": "1:1"
+    },
+    {
+      "id": "method-music-nature",
+      "filename": "method-music-nature.png",
+      "prompt": "Minimalist watercolor icon of a musical treble clef intertwined with a growing vine and tropical leaf, symbolizing music and nature harmony, green and blue tones, clean white background",
+      "aspect_ratio": "1:1"
+    },
+    {
+      "id": "method-music-language",
+      "filename": "method-music-language.png",
+      "prompt": "Minimalist watercolor icon of musical notes transforming into letters and words flowing from an open book, symbolizing the connection between music and language learning, blue and green tones, clean white background",
+      "aspect_ratio": "1:1"
+    }
+  ],
+  "decorative": [
+    {
+      "id": "decorative-monstera",
+      "filename": "decorative-monstera.png",
+      "prompt": "A single monstera leaf watercolor illustration with soft green tones and subtle blue highlights, transparent background style, artistic and delicate brush strokes, isolated botanical element",
+      "aspect_ratio": "1:1"
+    },
+    {
+      "id": "decorative-musical-notes",
+      "filename": "decorative-musical-notes.png",
+      "prompt": "Floating musical notes in watercolor style, scattered arrangement with varying sizes, soft blue and green gradient tones, dreamy and ethereal, decorative border element on white background",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "decorative-wave-divider",
+      "filename": "decorative-wave-divider.png",
+      "prompt": "A gentle watercolor wave divider element, flowing horizontal brushstroke in light blue and green tones blending together, artistic section separator, minimal and elegant on white background",
+      "aspect_ratio": "16:9"
+    }
+  ]
+}

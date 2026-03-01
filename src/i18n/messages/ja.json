@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "about": "講師紹介",
+    "courses": "コース紹介",
+    "showcase": "生徒の実績",
+    "book": "レッスン予約"
+  },
+  "hero": {
+    "title": "Ruby's Music Rainforest",
+    "subtitle": "音楽の熱帯雨林で、あなただけの美しい歌声を見つけましょう",
+    "exploreCourses": "コースを探す",
+    "bookTrial": "体験レッスンを予約"
+  },
+  "about": {
+    "sectionTitle": "講師紹介",
+    "headline": "小さな光でも、音楽の夢を照らすことができる",
+    "description": "Ruby先生はXX音楽院を卒業し、10年以上のボーカル指導経験を持っています。熱帯雨林のカエルがそれぞれ独自の歌声を持つように、一人ひとりにユニークな声があると信じています。科学的な発声法と自然な音楽アプローチを通じて、生徒が自分だけの声を見つけるお手伝いをしています。",
+    "philosophy": "指導理念：音楽を自然に還し、歌を心から生み出す。"
+  },
+  "method": {
+    "sectionTitle": "指導の特長",
+    "scientific": {
+      "title": "科学的発声トレーニング",
+      "desc": "小さなカエルが鳴嚢を使って歌うように、最も科学的な自然共鳴の方法を指導します"
+    },
+    "nature": {
+      "title": "音楽と自然",
+      "desc": "自然のリズムと調和しながら音楽性を育み、パフォーマンスの才能を引き出します"
+    },
+    "language": {
+      "title": "音楽と言語",
+      "desc": "音楽を通じて楽しく中国語を学びましょう"
+    }
+  },
+  "featuredCourses": {
+    "sectionTitle": "おすすめコース",
+    "subtitle": "年齢やレベルに合わせたコース設計",
+    "adult": {
+      "title": "大人コース",
+      "desc": "歌の可能性を発見し、初心者から自信あるパフォーマーへ"
+    },
+    "kids": {
+      "title": "キッズコース",
+      "desc": "音楽の中で成長し、自信と表現力を育てます"
+    },
+    "early": {
+      "title": "幼児コース",
+      "desc": "音楽で感性を育み、お子さまの芸術の旅を始めましょう"
+    },
+    "viewAll": "すべてのコースを見る"
+  },
+  "showcase": {
+    "sectionTitle": "生徒の実績",
+    "headline": "一人ひとりの生徒がかけがえのない存在",
+    "subtitle": "皆さんの成長が私たちの最大の誇りです",
+    "viewMore": "もっと見る"
+  },
+  "cta": {
+    "title": "音楽の旅を始める準備はできましたか？",
+    "subtitle": "お気軽にお問い合わせください。最初の一歩を踏み出しましょう",
+    "whatsapp": "WhatsApp で相談"
+  },
+  "courses": {
+    "pageTitle": "コース紹介",
+    "pageSubtitle": "すべての年齢に対応したコース",
+    "tabs": {
+      "adult": "大人コース",
+      "kids": "キッズコース",
+      "early": "幼児コース"
+    },
+    "courseTypes": {
+      "private": {
+        "title": "プライベートレッスン（1対1）",
+        "desc": "あなたの声の特徴と目標に合わせた、オーダーメイドのボーカルレッスン",
+        "duration": "45分 / レッスン",
+        "format": "対面 / オンライン"
+      },
+      "duo": {
+        "title": "ペアレッスン（1対2）",
+        "desc": "お友達と一緒に学び、互いに刺激し合い、音楽の楽しさを共有しましょう",
+        "duration": "60分 / レッスン",
+        "format": "対面"
+      },
+      "group": {
+        "title": "グループレッスン",
+        "desc": "3〜10人のクラスメートと一緒に歌い、アンサンブルの魅力とチームワークを体感しましょう",
+        "duration": "75分 / レッスン",
+        "format": "対面"
+      }
+    },
+    "details": {
+      "suitable": "対象",
+      "format": "レッスン形式",
+      "duration": "レッスン時間",
+      "language": "指導言語",
+      "bilingual": "中国語 / 英語 バイリンガル"
+    },
+    "bookThis": "このコースを予約"
+  },
+  "book": {
+    "pageTitle": "レッスン予約",
+    "pageSubtitle": "音楽の旅を始めましょう",
+    "trialTitle": "体験レッスンの内容",
+    "trial1": "声の状態の評価",
+    "trial2": "発声テクニックの指導",
+    "trial3": "あなただけの音楽学習プラン",
+    "trial4": "コースのご相談",
+    "whatsappTitle": "Ruby先生に今すぐ連絡",
+    "whatsappDesc": "下のボタンをタップして、WhatsAppで直接体験レッスンをご予約ください",
+    "whatsappBtn": "WhatsApp で予約",
+    "calendarTitle": "予約可能な時間を確認",
+    "calendarDesc": "以下のカレンダーでRuby先生のスケジュールをご確認いただけます。ご都合の良い時間をお選びください"
+  },
+  "footer": {
+    "contact": "お問い合わせ",
+    "followUs": "フォローする",
+    "rights": "\u00a9 2026 Ruby's Music Rainforest. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "location": "シンガポール"
+  }
+}
