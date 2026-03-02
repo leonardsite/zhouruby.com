@@ -3,7 +3,6 @@
     "about": "About",
     "courses": "Courses",
     "showcase": "Showcase",
-    "arranger": "Arranger",
     "book": "Book a Lesson"
   },
   "hero": {
@@ -15,7 +14,7 @@
   "about": {
     "sectionTitle": "About Me",
     "headline": "Even the smallest spark can light up a musical dream",
-    "description": "I hold a Master's degree in Popular Music Performance from the University of West London, with over five years of vocal teaching experience for students aged 3 to 60. I previously served as Head of Children's Vocal at the Lee Wei Song Music Academy. Incorporating the Orff Schulwerk approach, I focus on natural voice production and creative expression, helping every student discover their own unique voice.",
+    "description": "Holding a Master's degree in Popular Music Performance from the University of West London (UK), I have dedicated over five years to children's vocal education, with teaching experience spanning students aged 3 to 60. I previously served as Head of Children's Vocal Training at the Lee Wei Song Music Academy, where I developed extensive expertise in early childhood vocal development and advanced training.\n\nMy teaching approach integrates the Orff Schulwerk methodology, emphasizing natural vocal production and creative expression. I have also developed a proprietary system of music-and-movement games designed to cultivate rhythmic sense and musicality, enabling children to learn through play and discover their own unique voice.\n\nIn 2023, I released my original single and music video, Sunflower Under the Moon. In 2024, I was invited to write lyrics for Embrace the Sun, a promotional song for the Hangzhou Asian Games. I also contributed vocal harmony arrangement and recording for My Prime, a commercial campaign song featuring Korean stars Lee Min-ho and Jun Ji-hyun.\n\nAwards include the Best Song Award at the 2023 SGSW \"I Write My Song\" competition, and the Best Melody Award at the 25th Xin Qing Rong Ji Chinese Songwriting Competition hosted by the National University of Singapore, among others.",
     "philosophy": "My teaching philosophy: Let music return to nature, let singing come from the heart."
   },
   "method": {
@@ -34,31 +33,23 @@
     }
   },
   "featuredCourses": {
-    "sectionTitle": "Featured Courses",
-    "subtitle": "Courses designed for different ages and stages",
+    "sectionTitle": "Courses",
+    "subtitle": "Scientific Vocals · Music & Nature · Music & Language",
     "adult": {
       "title": "Adult Courses",
-      "desc": "Discover your singing potential, from beginner to confident performer"
+      "desc": "1-on-1, duo, and group options — correct vocal habits and unlock your singing potential"
     },
     "kids": {
       "title": "Kids Courses",
-      "desc": "Grow through music, building confidence and expressiveness"
-    },
-    "early": {
-      "title": "Early Childhood Courses",
-      "desc": "Musical enlightenment to start your little one's artistic journey"
+      "desc": "1-on-1, duo, and group options — systematic training in pitch, performance, and stage readiness"
     },
     "viewAll": "View All Courses"
   },
   "rubyMusic": {
     "sectionTitle": "Award-Winning Music",
-    "headline": "SG:SW 2023 Best Song Award",
-    "subtitle": "Ruby's original award-winning compositions",
-    "mvTitle": "The Moon and the Sunflower",
-    "mvSubtitle": "月亮下的太阳花",
-    "mvDesc": "SG:SW 2023 Best Song Award — Official Music Video",
-    "audioTitle": "The Moon and the Sunflower (Audio)",
-    "audioDesc": "SG:SW 2023 Best Song Award — Full Song"
+    "subtitle": "\"The Moon and the Sunflower\" — SG:SW 2023 Best Song Award",
+    "mvLabel": "Official MV",
+    "audioLabel": "Full Song"
   },
   "showcase": {
     "sectionTitle": "Student Showcase",
@@ -85,26 +76,43 @@
     "pageSubtitle": "Tailored courses for every age group",
     "tabs": {
       "adult": "Adult Courses",
-      "kids": "Kids Courses",
-      "early": "Early Childhood"
+      "kids": "Kids Courses"
     },
     "courseTypes": {
       "private": {
         "title": "Private 1-on-1 Lessons",
         "desc": "Personalised vocal lessons designed around your unique voice and goals",
-        "duration": "45 min / lesson",
+        "duration": "60 min / lesson",
         "format": "In-person / Online"
       },
       "duo": {
-        "title": "Duo Lessons (Bring a Friend)",
+        "title": "Duo Private Lessons (1-on-2)",
         "desc": "Learn together with a friend, motivate each other, and enjoy the joy of music",
         "duration": "60 min / lesson",
         "format": "In-person"
       },
       "group": {
         "title": "Group Lessons",
-        "desc": "Sing with 3-10 classmates, experience the magic of ensemble singing and teamwork",
-        "duration": "75 min / lesson",
+        "desc": "3-10 students, corporate event rehearsals, KTV vocal training and other group programmes",
+        "duration": "60 min / lesson",
+        "format": "In-person"
+      },
+      "kidsPrivate": {
+        "title": "1-on-1 Kids Vocal Lesson",
+        "desc": "A tailor-made vocal learning plan for your child. Interest development, exam preparation, portfolio building, and professional pathway guidance",
+        "duration": "60 min / lesson",
+        "format": "In-person / Online"
+      },
+      "kidsDuo": {
+        "title": "Duo Private Lessons (1-on-2)",
+        "desc": "Learn to sing with a buddy — mutual encouragement, shared progress, and a fun atmosphere to develop musical skills together",
+        "duration": "60 min / lesson",
+        "format": "In-person"
+      },
+      "kidsGroup": {
+        "title": "Kids Vocal Group Class",
+        "desc": "An Orff-inspired vocal and movement group class for 3-6 children. Featuring Ruby's original music games, learning scientific vocal techniques and developing musical rhythm in a fun environment",
+        "duration": "60 min / lesson",
         "format": "In-person"
       }
     },
@@ -118,8 +126,7 @@
     "bookThis": "Book This Course",
     "suitable": {
       "adult": "Adults 18+",
-      "kids": "Children & teens aged 6-17",
-      "early": "Toddlers 0-5 (with parent)"
+      "kids": "Children & teens aged 6-17"
     }
   },
   "book": {
@@ -135,6 +142,31 @@
     "whatsappBtn": "Book via WhatsApp",
     "calendarTitle": "View available times",
     "calendarDesc": "The calendar below shows Teacher Ruby's schedule so you can choose a time that suits you"
+  },
+  "carousel": {
+    "courses": {
+      "title": "Professional Vocal Training",
+      "desc": "Tailored for every age, scientific vocal methods to unlock your singing potential",
+      "cta": "Explore Courses"
+    },
+    "works": {
+      "title": "Original Music Works",
+      "desc": "SG:SW 2023 Best Song Award winner, telling stories through music",
+      "cta": "View Works"
+    },
+    "students": {
+      "title": "Student Showcase",
+      "desc": "Every student is unique — witness their growth and transformation",
+      "cta": "View Showcase"
+    }
+  },
+  "works": {
+    "sectionTitle": "Works & Achievements",
+    "subtitle": "Musical journeys of teacher and students",
+    "teacherLabel": "Teacher's Works",
+    "studentLabel": "Student Works",
+    "teacherSectionTitle": "Ruby's Updates",
+    "studentSectionTitle": "Student Works Showcase"
   },
   "footer": {
     "contact": "Contact Us",

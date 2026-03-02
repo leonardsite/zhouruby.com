@@ -1,7 +1,6 @@
 export const runtime = 'edge';
 
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
 import VideoEmbed from '@/components/VideoEmbed';
 import CoursesTabs from '@/components/CoursesTabs';
 
@@ -52,63 +51,28 @@ export default function CoursesPage() {
       courses: [
         {
           key: 'kids-private',
-          title: t('courses.courseTypes.private.title'),
-          desc: t('courses.courseTypes.private.desc'),
-          duration: t('courses.courseTypes.private.duration'),
-          format: t('courses.courseTypes.private.format'),
+          title: t('courses.courseTypes.kidsPrivate.title'),
+          desc: t('courses.courseTypes.kidsPrivate.desc'),
+          duration: t('courses.courseTypes.kidsPrivate.duration'),
+          format: t('courses.courseTypes.kidsPrivate.format'),
           language: t('courses.details.bilingual'),
           icon: '👤',
         },
         {
           key: 'kids-duo',
-          title: t('courses.courseTypes.duo.title'),
-          desc: t('courses.courseTypes.duo.desc'),
-          duration: t('courses.courseTypes.duo.duration'),
-          format: t('courses.courseTypes.duo.format'),
+          title: t('courses.courseTypes.kidsDuo.title'),
+          desc: t('courses.courseTypes.kidsDuo.desc'),
+          duration: t('courses.courseTypes.kidsDuo.duration'),
+          format: t('courses.courseTypes.kidsDuo.format'),
           language: t('courses.details.bilingual'),
           icon: '👥',
         },
         {
           key: 'kids-group',
-          title: t('courses.courseTypes.group.title'),
-          desc: t('courses.courseTypes.group.desc'),
-          duration: t('courses.courseTypes.group.duration'),
-          format: t('courses.courseTypes.group.format'),
-          language: t('courses.details.bilingual'),
-          icon: '👨‍👩‍👧‍👦',
-        },
-      ],
-    },
-    {
-      key: 'early' as const,
-      label: t('courses.tabs.early'),
-      icon: '🎼',
-      suitable: t('courses.suitable.early'),
-      courses: [
-        {
-          key: 'early-private',
-          title: t('courses.courseTypes.private.title'),
-          desc: t('courses.courseTypes.private.desc'),
-          duration: t('courses.courseTypes.private.duration'),
-          format: t('courses.courseTypes.private.format'),
-          language: t('courses.details.bilingual'),
-          icon: '👤',
-        },
-        {
-          key: 'early-duo',
-          title: t('courses.courseTypes.duo.title'),
-          desc: t('courses.courseTypes.duo.desc'),
-          duration: t('courses.courseTypes.duo.duration'),
-          format: t('courses.courseTypes.duo.format'),
-          language: t('courses.details.bilingual'),
-          icon: '👥',
-        },
-        {
-          key: 'early-group',
-          title: t('courses.courseTypes.group.title'),
-          desc: t('courses.courseTypes.group.desc'),
-          duration: t('courses.courseTypes.group.duration'),
-          format: t('courses.courseTypes.group.format'),
+          title: t('courses.courseTypes.kidsGroup.title'),
+          desc: t('courses.courseTypes.kidsGroup.desc'),
+          duration: t('courses.courseTypes.kidsGroup.duration'),
+          format: t('courses.courseTypes.kidsGroup.format'),
           language: t('courses.details.bilingual'),
           icon: '👨‍👩‍👧‍👦',
         },

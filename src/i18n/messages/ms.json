@@ -3,7 +3,6 @@
     "about": "Tentang Saya",
     "courses": "Kursus",
     "showcase": "Pencapaian Pelajar",
-    "arranger": "Penyusun Muzik",
     "book": "Tempah Kelas"
   },
   "hero": {
@@ -15,7 +14,7 @@
   "about": {
     "sectionTitle": "Tentang Saya",
     "headline": "Cahaya sekecil mana pun mampu menerangi impian muzik",
-    "description": "Saya memiliki Ijazah Sarjana dalam Persembahan Muzik Popular dari University of West London, dengan lebih lima tahun pengalaman mengajar vokal untuk pelajar berumur 3 hingga 60 tahun. Saya pernah berkhidmat sebagai Ketua Vokal Kanak-kanak di Lee Wei Song Music Academy. Menggabungkan pendekatan Orff Schulwerk, saya memberi tumpuan kepada pengeluaran suara semula jadi dan ekspresi kreatif, membantu setiap pelajar menemui suara unik mereka sendiri.",
+    "description": "Memiliki Ijazah Sarjana dalam Persembahan Muzik Popular dari University of West London (UK), saya telah mendedikasikan lebih lima tahun untuk pendidikan vokal kanak-kanak, dengan pengalaman mengajar merangkumi pelajar berumur 3 hingga 60 tahun. Saya pernah berkhidmat sebagai Ketua Latihan Vokal Kanak-kanak di Lee Wei Song Music Academy, di mana saya membangunkan kepakaran luas dalam pembangunan vokal awal kanak-kanak dan latihan lanjutan.\n\nPendekatan pengajaran saya mengintegrasikan metodologi Orff Schulwerk, menekankan pengeluaran vokal semula jadi dan ekspresi kreatif. Saya juga telah membangunkan sistem permainan muzik-dan-gerakan proprietari untuk memupuk deria irama dan kemuzikan, membolehkan kanak-kanak belajar melalui bermain dan menemui suara unik mereka sendiri.\n\nPada 2023, saya mengeluarkan single dan video muzik asli saya, Sunflower Under the Moon. Pada 2024, saya dijemput menulis lirik untuk Embrace the Sun, lagu promosi Sukan Asia Hangzhou. Saya juga menyumbang susunan harmoni vokal dan rakaman untuk My Prime, lagu kempen komersial yang menampilkan bintang Korea Lee Min-ho dan Jun Ji-hyun.\n\nAnugerah termasuk Anugerah Lagu Terbaik di pertandingan SGSW 2023 \"I Write My Song\", dan Anugerah Melodi Terbaik di Pertandingan Penulisan Lagu Cina Xin Qing Rong Ji ke-25 yang dianjurkan oleh Universiti Nasional Singapura.",
     "philosophy": "Falsafah pengajaran saya: Biarkan muzik kembali ke alam semula jadi, biarkan nyanyian lahir dari hati."
   },
   "method": {
@@ -34,31 +33,23 @@
     }
   },
   "featuredCourses": {
-    "sectionTitle": "Kursus Pilihan",
-    "subtitle": "Kursus yang direka untuk pelbagai peringkat umur",
+    "sectionTitle": "Kursus",
+    "subtitle": "Vokal Saintifik · Muzik & Alam · Muzik & Bahasa",
     "adult": {
       "title": "Kursus Dewasa",
-      "desc": "Temui potensi nyanyian anda, dari asas sifar hingga persembahan yang yakin"
+      "desc": "Pilihan 1-lawan-1, duo dan berkumpulan — perbaiki tabiat vokal dan buka potensi nyanyian anda"
     },
     "kids": {
       "title": "Kursus Kanak-kanak",
-      "desc": "Membesar melalui muzik, membina keyakinan dan daya ekspresi"
-    },
-    "early": {
-      "title": "Kursus Prasekolah",
-      "desc": "Celik muzik untuk memulakan perjalanan seni si kecil"
+      "desc": "Pilihan 1-lawan-1, duo dan berkumpulan — latihan sistematik dalam pic, persembahan dan kesediaan pentas"
     },
     "viewAll": "Lihat Semua Kursus"
   },
   "rubyMusic": {
     "sectionTitle": "Karya Pemenang Anugerah",
-    "headline": "SG:SW 2023 Anugerah Lagu Terbaik",
-    "subtitle": "Lagu asal Ruby yang memenangi anugerah",
-    "mvTitle": "Bunga Matahari di Bawah Bulan",
-    "mvSubtitle": "The Moon and the Sunflower",
-    "mvDesc": "SG:SW 2023 Anugerah Lagu Terbaik — Video Muzik Rasmi",
-    "audioTitle": "Bunga Matahari di Bawah Bulan (Audio)",
-    "audioDesc": "SG:SW 2023 Anugerah Lagu Terbaik — Lagu Penuh"
+    "subtitle": "\"Bunga Matahari di Bawah Bulan\" — SG:SW 2023 Anugerah Lagu Terbaik",
+    "mvLabel": "Official MV",
+    "audioLabel": "Lagu Penuh"
   },
   "showcase": {
     "sectionTitle": "Pencapaian Pelajar",
@@ -85,26 +76,43 @@
     "pageSubtitle": "Kursus yang disesuaikan untuk setiap peringkat umur",
     "tabs": {
       "adult": "Kursus Dewasa",
-      "kids": "Kursus Kanak-kanak",
-      "early": "Kursus Prasekolah"
+      "kids": "Kursus Kanak-kanak"
     },
     "courseTypes": {
       "private": {
         "title": "Kelas Persendirian 1-lawan-1",
         "desc": "Pelajaran vokal yang disesuaikan khas mengikut ciri-ciri suara dan matlamat peribadi anda",
-        "duration": "45 min / kelas",
+        "duration": "60 min / kelas",
         "format": "Bersemuka / Dalam Talian"
       },
       "duo": {
-        "title": "Kelas Duo (Bawa Kawan)",
+        "title": "Kelas Duo Persendirian (1-lawan-2)",
         "desc": "Belajar bersama kawan, saling memberi semangat, dan nikmati keseronokan muzik",
         "duration": "60 min / kelas",
         "format": "Bersemuka"
       },
       "group": {
         "title": "Kelas Berkumpulan",
-        "desc": "Menyanyi bersama 3-10 rakan sekelas, rasai keajaiban nyanyian berkumpulan dan kerja berpasukan",
-        "duration": "75 min / kelas",
+        "desc": "3-10 pelajar, latihan acara korporat, latihan vokal KTV dan program kumpulan lain",
+        "duration": "60 min / kelas",
+        "format": "Bersemuka"
+      },
+      "kidsPrivate": {
+        "title": "Kelas Vokal Kanak-kanak 1-lawan-1",
+        "desc": "Pelan pembelajaran vokal yang disesuaikan untuk anak anda. Pembangunan minat, persediaan peperiksaan, portfolio kemasukan, dan panduan laluan profesional",
+        "duration": "60 min / kelas",
+        "format": "Bersemuka / Dalam Talian"
+      },
+      "kidsDuo": {
+        "title": "Kelas Duo Persendirian (1-lawan-2)",
+        "desc": "Belajar menyanyi bersama kawan — saling menyokong, kemajuan bersama, dan suasana yang menyeronokkan untuk membangunkan kemahiran muzik",
+        "duration": "60 min / kelas",
+        "format": "Bersemuka"
+      },
+      "kidsGroup": {
+        "title": "Kelas Kumpulan Vokal Kanak-kanak",
+        "desc": "Kelas kumpulan vokal dan gerakan berasaskan Orff untuk 3-6 kanak-kanak. Menampilkan permainan muzik asli Ruby, belajar teknik vokal saintifik dan membangunkan irama muzik dalam suasana yang menyeronokkan",
+        "duration": "60 min / kelas",
         "format": "Bersemuka"
       }
     },
@@ -118,8 +126,7 @@
     "bookThis": "Tempah Kursus Ini",
     "suitable": {
       "adult": "Dewasa 18+",
-      "kids": "Kanak-kanak & remaja 6-17 tahun",
-      "early": "Kanak-kanak 0-5 tahun (dengan ibu bapa)"
+      "kids": "Kanak-kanak & remaja 6-17 tahun"
     }
   },
   "book": {
@@ -135,6 +142,31 @@
     "whatsappBtn": "Tempah Melalui WhatsApp",
     "calendarTitle": "Lihat masa yang tersedia",
     "calendarDesc": "Kalendar di bawah menunjukkan jadual Cikgu Ruby supaya anda boleh memilih masa yang sesuai"
+  },
+  "carousel": {
+    "courses": {
+      "title": "Latihan Vokal Profesional",
+      "desc": "Disesuaikan untuk setiap peringkat umur, kaedah vokal saintifik untuk membuka potensi nyanyian anda",
+      "cta": "Terokai Kursus"
+    },
+    "works": {
+      "title": "Karya Muzik Asli",
+      "desc": "Pemenang Anugerah Lagu Terbaik SG:SW 2023, bercerita melalui muzik",
+      "cta": "Lihat Karya"
+    },
+    "students": {
+      "title": "Pencapaian Pelajar",
+      "desc": "Setiap pelajar adalah unik — saksikan pertumbuhan dan transformasi mereka",
+      "cta": "Lihat Pencapaian"
+    }
+  },
+  "works": {
+    "sectionTitle": "Karya & Pencapaian",
+    "subtitle": "Perjalanan muzik guru dan pelajar",
+    "teacherLabel": "Karya Guru",
+    "studentLabel": "Karya Pelajar",
+    "teacherSectionTitle": "Kemas Kini Ruby",
+    "studentSectionTitle": "Pameran Karya Pelajar"
   },
   "footer": {
     "contact": "Hubungi Kami",

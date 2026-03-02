@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-type Category = 'adult' | 'kids' | 'early';
+type Category = 'adult' | 'kids';
 
 interface CourseType {
   key: string;

@@ -3,7 +3,6 @@
     "about": "关于我",
     "courses": "课程介绍",
     "showcase": "学员成果",
-    "arranger": "编曲工具",
     "book": "预约课程"
   },
   "hero": {
@@ -15,7 +14,7 @@
   "about": {
     "sectionTitle": "关于我",
     "headline": "最小的萤火，也能点亮音乐的梦想",
-    "description": "我毕业于英国西伦敦大学（University of West London）流行音乐演唱硕士，拥有超过五年的声乐教学经验，学生涵盖3至60岁各年龄层。曾任李伟菘音乐学院（Lee Wei Song Music Academy）童声教学主管。我融合奥尔夫音乐教学法（Orff Schulwerk），注重自然发声与创造性表达，帮助每一位学生发现属于自己的声音。",
+    "description": "毕业于英国西伦敦大学（University of West London）流行音乐演唱硕士，专注儿童声乐教育逾五年，教学经验涵盖3至60岁各年龄层学员。曾担任李伟菘音乐学院（Lee Wei Song Music Academy）童声教学主管，在少儿声乐启蒙与进阶教学领域积累了丰富的实践经验。\n\n教学上，融合奥尔夫音乐教学法（Orff Schulwerk），注重自然发声与创造性表达，并自主研发了一套原创音乐律动与乐感培养游戏体系，让孩子在玩中学、在学中玩，帮助每一位学生发现属于自己的声音。\n\n在音乐创作与表演方面同样活跃：2023年发布原创词曲单曲MV《月亮下的太阳花》；2024年受邀参与杭州亚运会推广曲《拥抱太阳》的歌词创作；参与韩国演员李敏镐、全智贤代言产品宣传曲《My Prime》的和声编写及录制工作。\n\n所获荣誉包括：2023年SGSW“我写我的歌”最佳歌曲奖，以及新加坡国立大学主办的第二十五届“心情溶剂”中文歌曲创作比赛最佳旋律奖等多个奖项。",
     "philosophy": "我的教学理念：让音乐回归自然，让歌声发自内心。"
   },
   "method": {
@@ -34,31 +33,23 @@
     }
   },
   "featuredCourses": {
-    "sectionTitle": "精选课程",
-    "subtitle": "为不同年龄与阶段设计的课程",
+    "sectionTitle": "课程",
+    "subtitle": "科学发声 · 音乐与自然 · 寓教于乐",
     "adult": {
       "title": "成人课程",
-      "desc": "发现你的歌唱潜力，从零基础到自信表演"
+      "desc": "1对1/1对2/小组课，多种形式满足不同需求，纠正发声习惯，释放歌唱潜能"
     },
     "kids": {
       "title": "儿童课程",
-      "desc": "在音乐中成长，培养自信与表达力"
-    },
-    "early": {
-      "title": "早教课程",
-      "desc": "用音乐启蒙，开启宝宝的艺术旅程"
+      "desc": "1对1/1对2/小组课专属指导，系统训练音准与表演力，备战考级与演出"
     },
     "viewAll": "查看全部课程"
   },
   "rubyMusic": {
     "sectionTitle": "获奖作品",
-    "headline": "SG:SW 2023 最佳歌曲奖",
-    "subtitle": "Ruby老师原创获奖歌曲",
-    "mvTitle": "月亮下的太阳花",
-    "mvSubtitle": "The Moon and the Sunflower",
-    "mvDesc": "SG:SW 2023 我写我的歌 最佳歌曲奖 Official MV",
-    "audioTitle": "月亮下的太阳花（音频版）",
-    "audioDesc": "SG:SW 2023 最佳歌曲奖 完整歌曲"
+    "subtitle": "「月亮下的太阳花」— SG:SW 2023 最佳歌曲奖",
+    "mvLabel": "Official MV",
+    "audioLabel": "完整歌曲"
   },
   "showcase": {
     "sectionTitle": "学员成果",
@@ -85,26 +76,43 @@
     "pageSubtitle": "为每个年龄段定制的课程",
     "tabs": {
       "adult": "成人课程",
-      "kids": "儿童课程",
-      "early": "早教课程"
+      "kids": "儿童课程"
     },
     "courseTypes": {
       "private": {
-        "title": "一对一精品私教",
+        "title": "一对一精品私教课",
         "desc": "量身定制的个人声乐课程，根据你的声音特点和目标设计专属教学方案",
-        "duration": "45分钟/节",
+        "duration": "60分钟/节",
         "format": "线下/线上"
       },
       "duo": {
-        "title": "一对二精品好友行",
+        "title": "一对二双人私教课",
         "desc": "和好友一起学习，互相激励进步，享受音乐的快乐",
         "duration": "60分钟/节",
         "format": "线下"
       },
       "group": {
         "title": "小组团体课",
-        "desc": "3-10位同学一起欢唱，感受合唱的魅力与团队协作",
-        "duration": "75分钟/节",
+        "desc": "3-10位同学，企业年会节目排练、KTV麦霸专项训练等团体课程",
+        "duration": "60分钟/节",
+        "format": "线下"
+      },
+      "kidsPrivate": {
+        "title": "一对一少儿声乐课",
+        "desc": "为您的孩子量身打造专属声乐学习方案。兴趣启发、考级比赛、升学作品集、专业路线辅导",
+        "duration": "60分钟/节",
+        "format": "线下/线上"
+      },
+      "kidsDuo": {
+        "title": "一对二双人私教课",
+        "desc": "和小伙伴一起学唱歌，互相鼓励共同进步，在欢乐的氛围中提升音乐素养",
+        "duration": "60分钟/节",
+        "format": "线下"
+      },
+      "kidsGroup": {
+        "title": "儿童声乐小组课",
+        "desc": "以奥尔夫音乐理念为主的声乐律动小组课，3-6名小朋友，Ruby老师原创音乐游戏，在欢快的氛围中学习科学发声，培养音乐律动",
+        "duration": "60分钟/节",
         "format": "线下"
       }
     },
@@ -118,8 +126,7 @@
     "bookThis": "预约此课程",
     "suitable": {
       "adult": "18岁以上成人",
-      "kids": "6-17岁儿童及青少年",
-      "early": "0-5岁幼儿（家长陪同）"
+      "kids": "6-17岁儿童及青少年"
     }
   },
   "book": {
@@ -135,6 +142,31 @@
     "whatsappBtn": "WhatsApp 预约",
     "calendarTitle": "查看可约时间",
     "calendarDesc": "以下日历显示Ruby老师的排课情况，方便您选择合适的时间"
+  },
+  "carousel": {
+    "courses": {
+      "title": "专业声乐培训",
+      "desc": "为每个年龄段量身定制，科学发声，释放你的歌唱潜能",
+      "cta": "探索课程"
+    },
+    "works": {
+      "title": "个人原创作品",
+      "desc": "SG:SW 2023 最佳歌曲奖获得者，用音乐讲述故事",
+      "cta": "欣赏作品"
+    },
+    "students": {
+      "title": "学员风采",
+      "desc": "每位学员都是独一无二的，见证他们的成长与蜕变",
+      "cta": "查看成果"
+    }
+  },
+  "works": {
+    "sectionTitle": "作品展示",
+    "subtitle": "老师与学员的音乐之旅",
+    "teacherLabel": "老师作品",
+    "studentLabel": "学员作品",
+    "teacherSectionTitle": "Ruby老师的动态",
+    "studentSectionTitle": "学员作品展示"
   },
   "footer": {
     "contact": "联系我们",
