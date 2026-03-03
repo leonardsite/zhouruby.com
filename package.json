@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages",
+    "pages:build": "npx @cloudflare/next-on-pages && node -e \"const fs=require('fs'); const p='.vercel/output/static/_routes.json'; const r=JSON.parse(fs.readFileSync(p)); if(!r.exclude.includes('/arranger/*')){r.exclude.push('/arranger/*');fs.writeFileSync(p,JSON.stringify(r,null,2));}\"",
     "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-date=2024-09-23 --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
