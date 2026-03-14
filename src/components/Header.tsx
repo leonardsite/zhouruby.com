@@ -16,7 +16,6 @@ const navItems: NavItem[] = [
   { key: 'about', href: '/#about' },
   { key: 'courses', href: '/courses' },
   { key: 'showcase', href: '/courses#results' },
-  { key: 'arranger', href: '/arranger/', external: true },
   { key: 'book', href: '/book' },
 ];
 
