@@ -17,14 +17,29 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const title = locale === 'zh'
+    ? "Ruby's Music Rainforest | 音乐雨林工作室"
+    : "Ruby's Music Rainforest Studio";
+  const description = locale === 'zh'
+    ? '在音乐的雨林里，发现属于你的美妙歌喉。科学发声 · 音乐与自然 · 音乐与语言'
+    : 'Discover your beautiful voice in the music rainforest. Scientific vocals · Music & Nature · Music & Language';
+
   return {
-    title: locale === 'zh'
-      ? "Ruby's Music Rainforest | 音乐雨林工作室"
-      : "Ruby's Music Rainforest Studio",
-    description: locale === 'zh'
-      ? '在音乐的雨林里，发现属于你的美妙歌喉。科学发声 · 音乐与自然 · 音乐与语言'
-      : 'Discover your beautiful voice in the music rainforest. Scientific vocals · Music & Nature · Music & Language',
+    title,
+    description,
     icons: { icon: '/images/logo.png' },
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: 'https://zhouruby.com/',
+      locale: locale === 'zh' ? 'zh_CN' : 'en_US',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   };
 }
 
