@@ -190,7 +190,7 @@ def build_parser() -> argparse.ArgumentParser:
     group.add_argument(
         "--category",
         type=str,
-        choices=["hero", "courses", "methods", "decorative"],
+        choices=list(json.load(open(Path(__file__).resolve().parent / "prompts.json")).keys()),
         help="Generate images for a specific category only.",
     )
     group.add_argument(

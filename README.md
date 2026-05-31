@@ -2,7 +2,7 @@
 
 # zhouruby.com
 
-**Zhou Ruby Music Studio** / **周如碧音乐工作室**
+**Ruby's Music Rainforest** — Singapore vocal &amp; music studio
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.5-black?logo=next.js)](https://nextjs.org/)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com/)

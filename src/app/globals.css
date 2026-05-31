@@ -2,74 +2,125 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+Tamil:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+Tamil:wght@400;500;700&display=swap');
 
-@layer base {
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    @apply font-body text-brand-black bg-[#d6dfc8];
-  }
+/* ============ Design tokens (refined watercolor rainforest) ============ */
+:root {
+  --forest:      #234a3b;
+  --forest-deep: #1a3a2e;
+  --teal:        #2f7d6b;
+  --moss:        #5b8f5a;
+  --sage:        #e9efe0;
+  --sage-2:      #dde7cf;
+  --cream:       #f7f4ea;
+  --ink:         #1f2a22;
+  --ink-2:       #45554a;
+  --gold:        #efb84a;   /* firefly */
+  --gold-soft:   #f6e2ad;
+  --paper-grain: rgba(35,74,59,.04);
 }
 
+@layer base {
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    @apply font-body text-brand-black;
+    color: var(--ink);
+    background: var(--sage);
+  }
+  ::selection { background: var(--gold-soft); color: var(--forest-deep); }
+}
+
+/* ============ Existing component classes (kept; other components use them) ============ */
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center px-8 py-3 rounded-full
-           bg-brand-blue-dark text-white font-semibold text-lg
-           hover:bg-[#1a3a5c] transition-all duration-300
+           text-white font-semibold text-lg transition-all duration-300
            shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+    background: linear-gradient(135deg, var(--teal), var(--forest));
   }
+  .btn-primary:hover { filter: brightness(1.06); }
   .btn-secondary {
     @apply inline-flex items-center justify-center px-8 py-3 rounded-full
-           bg-white/90 text-brand-blue-dark font-semibold text-lg
-           border-2 border-brand-blue-dark/20
-           hover:bg-brand-blue-dark hover:text-white transition-all duration-300
+           font-semibold text-lg transition-all duration-300
            shadow-md hover:shadow-xl hover:-translate-y-0.5;
+    background: rgba(255,255,255,.85); color: var(--forest);
+    border: 2px solid rgba(35,74,59,.18); backdrop-filter: blur(4px);
   }
+  .btn-secondary:hover { background: var(--forest); color: #fff; border-color: var(--forest); }
   .btn-whatsapp {
     @apply inline-flex items-center justify-center gap-3 px-10 py-4 rounded-full
-           bg-white text-brand-green-dark font-bold text-xl
-           hover:bg-brand-blue-dark hover:text-white transition-all duration-300
+           font-bold text-xl transition-all duration-300
            shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+    background: #fff; color: var(--forest);
   }
-  .section-title {
-    @apply text-3xl md:text-4xl font-display font-bold text-brand-blue-dark mb-4;
-  }
-  .section-subtitle {
-    @apply text-lg md:text-xl text-[#2d3b2d] mb-8;
-  }
+  .btn-whatsapp:hover { background: #25D366; color: #fff; }
+  .section-title { @apply text-3xl md:text-4xl font-display font-bold mb-4; color: var(--forest); }
+  .section-subtitle { @apply text-lg md:text-xl mb-8; color: var(--ink-2); }
   .card {
-    @apply bg-[#e8efda] rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+    @apply rounded-2xl shadow-lg p-6 transition-all duration-300;
+    background: rgba(255,255,255,.72); backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,.6);
   }
-  .wave-bg {
-    background: linear-gradient(135deg, #7aab6b 0%, #9cc48d 40%, #b5d4a0 100%);
-  }
+  .card:hover { box-shadow: 0 24px 48px -20px rgba(35,74,59,.35); transform: translateY(-4px); }
+  .wave-bg { background: linear-gradient(135deg, var(--teal) 0%, var(--moss) 45%, #8fb979 100%); }
 }
 
-/* Floating animations for decorative elements */
-@keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-12px) rotate(3deg); }
-}
-@keyframes float-delayed {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-8px) rotate(-2deg); }
-}
-@keyframes float-slow {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-6px); }
+/* ============ New design utilities ============ */
+@layer components {
+  .eyebrow {
+    @apply inline-flex items-center gap-2 font-body font-bold uppercase tracking-[0.22em] text-xs;
+    color: var(--teal);
+  }
+  .eyebrow::before { content:""; width: 22px; height: 2px; border-radius: 2px; background: var(--gold); }
+  .display-hero {
+    font-family: 'Fredoka', sans-serif; font-weight: 700; line-height: 1.02;
+    letter-spacing: -0.01em;
+    font-size: clamp(2.6rem, 7vw, 5.2rem);
+  }
+  .text-gradient {
+    background: linear-gradient(120deg, var(--gold) 0%, #fff 50%, var(--gold-soft) 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .glass-dark {
+    background: rgba(26,58,46,.55); backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,.12);
+  }
+  .section-pad { @apply py-20 md:py-28; }
+  .lead { color: var(--ink-2); font-size: clamp(1.05rem,1.4vw,1.3rem); line-height: 1.7; }
 }
 
+/* ============ Hero parallax ============ */
+.hero-stage { position: relative; width: 100%; min-height: 100svh; overflow: hidden;
+  background: linear-gradient(180deg, #cfe3df 0%, #bcd6c6 55%, var(--sage) 100%); }
+.hero-layer { position: absolute; inset: 0; width: 100%; height: 100%; will-change: transform; pointer-events: none; }
+.hero-layer img { width: 100%; height: 100%; object-fit: cover; }
+.hero-vignette { position:absolute; inset:0; background: radial-gradient(120% 90% at 50% 30%, transparent 40%, rgba(26,58,46,.30) 100%); pointer-events:none; z-index: 7; }
+.hero-scrim { position:absolute; inset:0; z-index: 7; pointer-events:none;
+  background: radial-gradient(56% 44% at 50% 50%, rgba(18,42,32,.52) 0%, rgba(18,42,32,.18) 56%, transparent 78%); }
+
+/* fireflies / particles */
+.spark { position: absolute; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, rgba(255,247,214,1) 0%, rgba(239,184,74,.85) 40%, rgba(239,184,74,0) 70%);
+  filter: blur(.3px); }
+
+/* ============ Reveal (GSAP enhances; CSS keeps content visible if JS off) ============ */
+.reveal { opacity: 1; }
+.js .reveal { opacity: 0; transform: translateY(24px); }
+.js .reveal.is-in { opacity: 1; transform: none; transition: opacity .8s cubic-bezier(.22,.61,.36,1), transform .8s cubic-bezier(.22,.61,.36,1); }
+
+/* vine divider */
+.vine-divider { position: relative; height: 90px; margin-top: -1px; pointer-events:none; }
+.vine-divider img { width: 100%; height: 100%; object-fit: contain; object-position: center; opacity: .9; }
+
+/* float (kept) */
+@keyframes float { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-12px) rotate(3deg)} }
+@keyframes float-delayed { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-8px) rotate(-2deg)} }
 @layer utilities {
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-  .animate-float-delayed {
-    animation: float-delayed 8s ease-in-out infinite;
-    animation-delay: 2s;
-  }
-  .animate-float-slow {
-    animation: float-slow 4s ease-in-out infinite;
-  }
+  .animate-float { animation: float 6s ease-in-out infinite; }
+  .animate-float-delayed { animation: float-delayed 8s ease-in-out infinite; animation-delay: 2s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-float, .animate-float-delayed { animation: none; }
+  .js .reveal { opacity: 1; transform: none; }
 }

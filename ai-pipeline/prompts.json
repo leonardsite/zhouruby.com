@@ -72,5 +72,69 @@
       "prompt": "A gentle watercolor wave divider element, flowing horizontal brushstroke in light blue and green tones blending together, artistic section separator, minimal and elegant on white background",
       "aspect_ratio": "16:9"
     }
+  ],
+  "rebuild": [
+    {
+      "id": "layer-foreground-leaves",
+      "filename": "layer-foreground-leaves.png",
+      "prompt": "Large tropical monstera and fern leaves arranged along the bottom and side edges as a foreground frame, lush watercolor style, deep green with subtle blue highlights, soft delicate brushstrokes, wide cinematic composition with lots of empty space in the center, isolated on clean white background",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "layer-mid-notes",
+      "filename": "layer-mid-notes.png",
+      "prompt": "Scattered floating watercolor musical notes of varying sizes drifting gently across a wide frame, soft blue and green gradient tones, dreamy and ethereal, evenly distributed with airy negative space, isolated on clean white background",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "layer-bg-canopy",
+      "filename": "layer-bg-canopy.png",
+      "prompt": "A soft blurred distant tropical rainforest canopy with gentle light bokeh and sun rays filtering through the leaves, watercolor style, pale blue and green tones, very soft and out of focus, calm atmospheric background layer, wide composition",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "fireflies-glow",
+      "filename": "fireflies-glow.png",
+      "prompt": "A cluster of tiny glowing fireflies and soft floating light motes, warm golden glow against a soft dark teal and green watercolor wash, dreamy and magical, delicate sparkles, gentle bokeh",
+      "aspect_ratio": "1:1"
+    },
+    {
+      "id": "showcase-stage",
+      "filename": "showcase-stage.png",
+      "prompt": "Watercolor illustration of a happy young child singing on a small warmly lit stage holding a microphone, surrounded by tropical plants and floating musical notes, soft green and blue tones with a warm golden spotlight glow, joyful and inspiring atmosphere",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "id": "book-scene",
+      "filename": "book-scene.png",
+      "prompt": "Watercolor illustration of a cozy desk beside a sunlit window with a microphone, an open calendar notebook, and a monstera plant in a pot, warm and inviting atmosphere, soft green and blue tones, natural light streaming in, no text or letters",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "id": "divider-vine",
+      "filename": "divider-vine.png",
+      "prompt": "A delicate trailing vine with small tropical leaves stretching horizontally across the frame as a section divider, watercolor style, soft green with subtle blue highlights, elegant and minimal, isolated on clean white background",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "note-particles",
+      "filename": "note-particles.png",
+      "prompt": "A set of individual watercolor musical note glyphs - quarter notes, eighth notes and a treble clef - arranged separately with generous space between each, soft blue and green tones, clean simple delicate shapes, isolated on clean white background",
+      "aspect_ratio": "1:1"
+    }
+  ],
+  "rebuildfix": [
+    {
+      "id": "divider-vine",
+      "filename": "divider-vine.png",
+      "prompt": "A delicate trailing vine with small tropical leaves stretching horizontally across the frame as a section divider, watercolor style, soft green with subtle blue highlights, elegant and minimal, isolated on clean white background",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "note-particles",
+      "filename": "note-particles.png",
+      "prompt": "A set of individual watercolor musical note glyphs - quarter notes, eighth notes and a treble clef - arranged separately with generous space between each, soft blue and green tones, clean simple delicate shapes, isolated on clean white background",
+      "aspect_ratio": "1:1"
+    }
   ]
 }
