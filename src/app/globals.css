@@ -99,10 +99,20 @@
 .hero-scrim { position:absolute; inset:0; z-index: 7; pointer-events:none;
   background: radial-gradient(56% 44% at 50% 50%, rgba(18,42,32,.52) 0%, rgba(18,42,32,.18) 56%, transparent 78%); }
 
-/* fireflies / particles */
+/* fireflies / particles — brighter glow so they read clearly */
 .spark { position: absolute; border-radius: 50%; pointer-events: none;
-  background: radial-gradient(circle, rgba(255,247,214,1) 0%, rgba(239,184,74,.85) 40%, rgba(239,184,74,0) 70%);
-  filter: blur(.3px); }
+  background: radial-gradient(circle, rgba(255,250,225,1) 0%, rgba(245,200,90,.95) 38%, rgba(239,184,74,0) 72%);
+  box-shadow: 0 0 12px 3px rgba(245,200,90,.45); filter: blur(.2px); }
+/* rising musical notes (continuous ambient motion in the hero) */
+.note-rise { position: absolute; pointer-events: none; user-select: none; will-change: transform, opacity;
+  color: rgba(255,253,240,.92); text-shadow: 0 0 12px rgba(245,200,90,.7), 0 1px 2px rgba(26,58,46,.4); line-height: 1; }
+
+/* hero entrance — pure CSS keyframes (always complete, never trap content hidden) */
+@keyframes heroRise { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: none; } }
+@keyframes heroPop  { from { opacity: 0; transform: scale(.7); }        to { opacity: 1; transform: none; } }
+.hero-enter     { animation: heroRise .95s cubic-bezier(.22,.61,.36,1) both; }
+.hero-enter-pop { animation: heroPop  .8s  cubic-bezier(.34,1.56,.64,1) both; }
+@media (prefers-reduced-motion: reduce) { .hero-enter, .hero-enter-pop { animation: none; } }
 
 /* ============ Reveal — content is ALWAYS visible; gsap only ADDS motion when it runs.
    (Never gate visibility on JS: if gsap fails to load/run, the page must still show everything.) */
