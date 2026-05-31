@@ -40,3 +40,8 @@ __pycache__/
 *$py.class
 .venv/
 ai-pipeline/.venv/
+
+# build / deploy artifacts
+.wrangler/
+.vercel/
+.open-next/
