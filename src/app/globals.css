@@ -13,8 +13,9 @@
   --sage:        #e9efe0;
   --sage-2:      #dde7cf;
   --cream:       #f7f4ea;
-  --ink:         #1f2a22;
-  --ink-2:       #45554a;
+  --ink:         #15201a;
+  --ink-2:       #33433a;
+  --ink-3:       #5f5a50;
   --gold:        #efb84a;   /* firefly */
   --gold-soft:   #f6e2ad;
   --paper-grain: rgba(35,74,59,.04);
@@ -94,10 +95,13 @@
 .hero-stage { position: relative; width: 100%; min-height: 100svh; overflow: hidden;
   background: linear-gradient(180deg, #cfe3df 0%, #bcd6c6 55%, var(--sage) 100%); }
 .hero-layer { position: absolute; inset: 0; width: 100%; height: 100%; will-change: transform; pointer-events: none; }
-.hero-layer img { width: 100%; height: 100%; object-fit: cover; }
-.hero-vignette { position:absolute; inset:0; background: radial-gradient(120% 90% at 50% 30%, transparent 40%, rgba(26,58,46,.30) 100%); pointer-events:none; z-index: 7; }
+.hero-layer img { width: 100%; height: 100%; object-fit: cover; filter: brightness(.78) saturate(1.05); }
+.hero-vignette { position:absolute; inset:0; z-index: 7; pointer-events:none;
+  background: radial-gradient(125% 95% at 50% 32%, transparent 30%, rgba(13,33,25,.55) 100%); }
 .hero-scrim { position:absolute; inset:0; z-index: 7; pointer-events:none;
-  background: radial-gradient(56% 44% at 50% 50%, rgba(18,42,32,.52) 0%, rgba(18,42,32,.18) 56%, transparent 78%); }
+  background:
+    linear-gradient(180deg, rgba(12,30,22,.34) 0%, rgba(12,30,22,.10) 28%, rgba(12,30,22,.22) 72%, rgba(12,30,22,.5) 100%),
+    radial-gradient(60% 50% at 50% 50%, rgba(10,26,19,.7) 0%, rgba(10,26,19,.3) 56%, transparent 82%); }
 
 /* fireflies / particles — brighter glow so they read clearly */
 .spark { position: absolute; border-radius: 50%; pointer-events: none;
