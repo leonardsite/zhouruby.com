@@ -14,7 +14,7 @@
   "about": {
     "sectionTitle": "About Me",
     "headline": "Even the smallest spark can light up a musical dream",
-    "description": "Holding a Master's degree in Popular Music Performance from the University of West London (UK), I have dedicated over five years to children's vocal education, with teaching experience spanning students aged 3 to 60. I previously served as Head of Children's Vocal Training at the Lee Wei Song Music Academy, where I developed extensive expertise in early childhood vocal development and advanced training.\n\nMy teaching approach integrates the Orff Schulwerk methodology, emphasizing natural vocal production and creative expression. I have also developed a proprietary system of music-and-movement games designed to cultivate rhythmic sense and musicality, enabling children to learn through play and discover their own unique voice.\n\nIn 2023, I released my original single and music video, Sunflower Under the Moon. In 2024, I was invited to write lyrics for Embrace the Sun, a promotional song for the Hangzhou Asian Games. I also contributed vocal harmony arrangement and recording for My Prime, a commercial campaign song featuring Korean stars Lee Min-ho and Jun Ji-hyun.\n\nAwards include the Best Song Award at the 2023 SGSW \"I Write My Song\" competition, and the Best Melody Award at the 25th Xin Qing Rong Ji Chinese Songwriting Competition hosted by the National University of Singapore, among others.",
+    "description": "I hold a Master's degree in Popular Music Performance from the University of West London (UK), as well as a Master's from Raffles Music College in Singapore. Specialising in pop, jazz and children's vocals, I have devoted years to vocal education, with teaching experience spanning students aged 3 to 60. I have served as a Disney bilingual trainer, a guest vocal instructor at a Shanghai arts kindergarten, and Head of Children's Vocal Training at the Lee Wei Song Music Academy in Singapore.\n\nMy teaching integrates the Orff Schulwerk methodology, emphasising natural vocal production and creative expression, and I have developed a proprietary system of music-and-movement games that cultivates rhythm and musicality so children learn through play. I am at home across English, Japanese and Western jazz repertoire, skilled in mixed-voice technique, and able to teach songs in English and Japanese.\n\nI stay active in creating and performing: in 2023 I released my original single and music video Sunflower Under the Moon; in 2024 I was invited to write lyrics for Embrace the Sun, a promotional song for the Hangzhou Asian Games; and I arranged and recorded vocal harmonies for My Prime, a campaign song featuring Korean stars Lee Min-ho and Jun Ji-hyun. As a core youth member of the Shanghai Philharmonic Choir, I performed in the large-scale symphonic choral work Set Sail at the Shanghai Concert Hall and in the original musical City of Dreams, and toured Shanghai with the show Library Brainwave. In 2017 I studied on exchange in Japan.\n\nHonours include: Champion of the Shanghai Ocean University campus ‘Top 10 Singers’ competition, runner-up in an English singing contest, a group honour at the Shanghai Singing Competition, and an Outstanding Contribution Award at the China–Germany Art Exchange Festival; the Best Song Award at the 2023 SGSW ‘I Write My Song’ competition; and the Best Melody Award at the 25th Xin Qing Rong Ji Chinese Songwriting Competition hosted by the National University of Singapore — among others. I have also led student groups in university arts showcases.",
     "philosophy": "My teaching philosophy: Let music return to nature, let singing come from the heart."
   },
   "method": {
@@ -58,12 +58,42 @@
     "viewMore": "View More",
     "videoUnavailable": "Video coming soon",
     "videos": {
-      "v1": { "title": "You Raise Me Up", "student": "Kai Xuan & Kai Lun", "song": "You Raise Me Up", "desc": "Student duet performance" },
-      "v2": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" },
-      "v3": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" },
-      "v4": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" },
-      "v5": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" },
-      "v6": { "title": "More videos coming soon", "student": "", "song": "", "desc": "Stay tuned" }
+      "v1": {
+        "title": "You Raise Me Up",
+        "student": "Kai Xuan & Kai Lun",
+        "song": "You Raise Me Up",
+        "desc": "Student duet performance"
+      },
+      "v2": {
+        "title": "More videos coming soon",
+        "student": "",
+        "song": "",
+        "desc": "Stay tuned"
+      },
+      "v3": {
+        "title": "More videos coming soon",
+        "student": "",
+        "song": "",
+        "desc": "Stay tuned"
+      },
+      "v4": {
+        "title": "More videos coming soon",
+        "student": "",
+        "song": "",
+        "desc": "Stay tuned"
+      },
+      "v5": {
+        "title": "More videos coming soon",
+        "student": "",
+        "song": "",
+        "desc": "Stay tuned"
+      },
+      "v6": {
+        "title": "More videos coming soon",
+        "student": "",
+        "song": "",
+        "desc": "Stay tuned"
+      }
     }
   },
   "cta": {
@@ -171,7 +201,7 @@
   "footer": {
     "contact": "Contact Us",
     "followUs": "Follow Us",
-    "rights": "\u00a9 2026 Ruby's Music Rainforest. All rights reserved.",
+    "rights": "© 2026 Ruby's Music Rainforest. All rights reserved.",
     "privacy": "Privacy Policy",
     "location": "Singapore"
   }

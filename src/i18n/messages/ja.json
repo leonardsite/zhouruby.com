@@ -14,7 +14,7 @@
   "about": {
     "sectionTitle": "講師紹介",
     "headline": "小さな光でも、音楽の夢を照らすことができる",
-    "description": "英国ウェスト・ロンドン大学（University of West London）でポピュラー音楽パフォーマンスの修士号を取得。5年以上にわたり児童声楽教育に専念し、3歳から60歳まで幅広い年齢層の指導経験を持つ。李偉菘音楽学院（Lee Wei Song Music Academy）で児童声楽部門主任を務め、児童声楽の啓蒙と上級指導において豊富な実践経験を積む。\n\nオルフ・シュールヴェルク教育法を取り入れ、自然な発声と創造的な表現を重視。独自のオリジナル音楽リズムと音感育成ゲーム体系を開発し、遊びの中で学び、学びの中で遊ぶことで、すべての生徒が自分だけの声を見つけるお手伝いをしている。\n\n音楽創作と演奏の面でも活躍中：2023年にオリジナルシングルMV『月下の向日葵』をリリース。2024年には杭州アジア競技大会プロモーションソング『太陽を抱きしめて』の作詞に招待参加。韓国俳優イ・ミンホ、チョン・ジヒョン出演の商品PR曲『My Prime』のハーモニー編曲・録音にも参加。\n\n受賞歴：2023年SGSW「I Write My Song」最優秀楽曲賞、シンガポール国立大学主催第25回「心情溶剤」中国語歌曲創作コンペティション最優秀メロディー賞など。",
+    "description": "私はUniversity of West London（英国）でポピュラー音楽パフォーマンスの修士号を取得し、さらにシンガポールのRaffles Music Collegeでも修士号を取得しています。ポップ、ジャズ、児童ボーカルを専門とし、長年にわたり声楽教育に携わってきました。指導経験は3歳から60歳までの生徒に及びます。これまでにDisneyのバイリンガルトレーナー、上海の芸術系幼稚園のゲストボーカル講師、シンガポールのLee Wei Song Music Academyにおける児童ボーカルトレーニング部門の責任者を務めてまいりました。\n\n私の指導はOrff Schulwerkのメソッドを取り入れており、自然な発声と創造的な表現を重視しています。また、リズム感と音楽性を育む独自の音楽＆ムーブメント・ゲームのシステムを開発し、子どもたちが遊びを通して学べるよう工夫しています。英語、日本語、そして西洋のジャズのレパートリーに精通し、ミックスボイスの技術に長け、英語と日本語の歌を教えることができます。\n\n私は創作と演奏の活動も続けています。2023年にはオリジナルシングルとミュージックビデオ「月下のひまわり（Sunflower Under the Moon）」をリリースし、2024年には杭州アジア競技大会（Hangzhou Asian Games）のプロモーションソング「太陽を抱きしめて（Embrace the Sun）」の作詞を依頼されました。また、韓国のスターであるLee Min-hoとJun Ji-hyunが出演するキャンペーンソング「My Prime」では、ボーカルハーモニーの編曲とレコーディングを手がけました。Shanghai Philharmonic Choirの中核を担う若手メンバーとして、上海音楽庁にて大規模な交響合唱作品「Set Sail」やオリジナルミュージカル「City of Dreams」に出演し、ショー「Library Brainwave」で上海各地を巡演しました。2017年には日本に交換留学しました。\n\n受賞歴には次のものがあります。Shanghai Ocean University学内「Top 10 Singers」コンテスト優勝、英語歌唱コンテスト準優勝、上海歌唱コンテストでのグループ表彰、中独芸術交流フェスティバルにおける優秀貢献賞、2023年SGSW「I Write My Song」コンテストの最優秀楽曲賞、そしてNational University of Singaporeが主催する第25回シンガポール華語創作コンテスト「新青鎔集（Xin Qing Rong Ji）」での最優秀メロディー賞などがあります。また、大学の芸術公演において学生グループを率いてきました。",
     "philosophy": "私の教育理念：音楽を自然に還し、歌を心から生み出す。"
   },
   "method": {
@@ -58,12 +58,42 @@
     "viewMore": "もっと見る",
     "videoUnavailable": "動画は近日公開",
     "videos": {
-      "v1": { "title": "You Raise Me Up", "student": "Kai Xuan & Kai Lun", "song": "You Raise Me Up", "desc": "生徒デュエットパフォーマンス" },
-      "v2": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" },
-      "v3": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" },
-      "v4": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" },
-      "v5": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" },
-      "v6": { "title": "動画近日公開", "student": "", "song": "", "desc": "お楽しみに" }
+      "v1": {
+        "title": "You Raise Me Up",
+        "student": "Kai Xuan & Kai Lun",
+        "song": "You Raise Me Up",
+        "desc": "生徒デュエットパフォーマンス"
+      },
+      "v2": {
+        "title": "動画近日公開",
+        "student": "",
+        "song": "",
+        "desc": "お楽しみに"
+      },
+      "v3": {
+        "title": "動画近日公開",
+        "student": "",
+        "song": "",
+        "desc": "お楽しみに"
+      },
+      "v4": {
+        "title": "動画近日公開",
+        "student": "",
+        "song": "",
+        "desc": "お楽しみに"
+      },
+      "v5": {
+        "title": "動画近日公開",
+        "student": "",
+        "song": "",
+        "desc": "お楽しみに"
+      },
+      "v6": {
+        "title": "動画近日公開",
+        "student": "",
+        "song": "",
+        "desc": "お楽しみに"
+      }
     }
   },
   "cta": {
@@ -171,7 +201,7 @@
   "footer": {
     "contact": "お問い合わせ",
     "followUs": "フォローする",
-    "rights": "\u00a9 2026 Ruby's Music Rainforest. All rights reserved.",
+    "rights": "© 2026 Ruby's Music Rainforest. All rights reserved.",
     "privacy": "プライバシーポリシー",
     "location": "シンガポール"
   }

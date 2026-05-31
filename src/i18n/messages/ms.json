@@ -14,7 +14,7 @@
   "about": {
     "sectionTitle": "Tentang Saya",
     "headline": "Cahaya sekecil mana pun mampu menerangi impian muzik",
-    "description": "Memiliki Ijazah Sarjana dalam Persembahan Muzik Popular dari University of West London (UK), saya telah mendedikasikan lebih lima tahun untuk pendidikan vokal kanak-kanak, dengan pengalaman mengajar merangkumi pelajar berumur 3 hingga 60 tahun. Saya pernah berkhidmat sebagai Ketua Latihan Vokal Kanak-kanak di Lee Wei Song Music Academy, di mana saya membangunkan kepakaran luas dalam pembangunan vokal awal kanak-kanak dan latihan lanjutan.\n\nPendekatan pengajaran saya mengintegrasikan metodologi Orff Schulwerk, menekankan pengeluaran vokal semula jadi dan ekspresi kreatif. Saya juga telah membangunkan sistem permainan muzik-dan-gerakan proprietari untuk memupuk deria irama dan kemuzikan, membolehkan kanak-kanak belajar melalui bermain dan menemui suara unik mereka sendiri.\n\nPada 2023, saya mengeluarkan single dan video muzik asli saya, Sunflower Under the Moon. Pada 2024, saya dijemput menulis lirik untuk Embrace the Sun, lagu promosi Sukan Asia Hangzhou. Saya juga menyumbang susunan harmoni vokal dan rakaman untuk My Prime, lagu kempen komersial yang menampilkan bintang Korea Lee Min-ho dan Jun Ji-hyun.\n\nAnugerah termasuk Anugerah Lagu Terbaik di pertandingan SGSW 2023 \"I Write My Song\", dan Anugerah Melodi Terbaik di Pertandingan Penulisan Lagu Cina Xin Qing Rong Ji ke-25 yang dianjurkan oleh Universiti Nasional Singapura.",
+    "description": "Saya memiliki Ijazah Sarjana dalam Persembahan Muzik Popular dari University of West London (UK), serta Ijazah Sarjana dari Raffles Music College di Singapura. Mengkhusus dalam vokal pop, jazz dan kanak-kanak, saya telah mengabdikan bertahun-tahun kepada pendidikan vokal, dengan pengalaman mengajar merangkumi pelajar berusia 3 hingga 60 tahun. Saya pernah berkhidmat sebagai jurulatih dwibahasa Disney, instruktur vokal jemputan di sebuah tadika seni di Shanghai, dan Ketua Latihan Vokal Kanak-kanak di Lee Wei Song Music Academy di Singapura.\n\nPengajaran saya menggabungkan metodologi Orff Schulwerk, menekankan penghasilan vokal yang semula jadi dan ekspresi kreatif, dan saya telah membangunkan satu sistem permainan muzik-dan-gerakan tersendiri yang memupuk rentak dan muzikaliti supaya kanak-kanak belajar melalui bermain. Saya selesa dengan repertoir Bahasa Inggeris, Jepun dan jazz Barat, mahir dalam teknik suara campuran (mixed-voice), serta mampu mengajar lagu dalam Bahasa Inggeris dan Jepun.\n\nSaya kekal aktif dalam mencipta dan membuat persembahan: pada tahun 2023 saya melancarkan single asli dan video muzik saya \"Sunflower Under the Moon\"; pada tahun 2024 saya dijemput untuk menulis lirik bagi \"Embrace the Sun\", sebuah lagu promosi untuk Hangzhou Asian Games; dan saya mengaransemen serta merakam harmoni vokal untuk \"My Prime\", sebuah lagu kempen yang menampilkan bintang Korea Lee Min-ho dan Jun Ji-hyun. Sebagai ahli teras belia Shanghai Philharmonic Choir, saya membuat persembahan dalam karya koral simfoni berskala besar \"Set Sail\" di Shanghai Concert Hall dan dalam muzikal asli \"City of Dreams\", serta membuat jelajah di Shanghai dengan persembahan \"Library Brainwave\". Pada tahun 2017 saya belajar secara pertukaran pelajar di Jepun.\n\nAntara penghormatan yang diterima termasuk: Johan pertandingan kampus '10 Penyanyi Terbaik' di Shanghai Ocean University, naib johan dalam satu pertandingan nyanyian Bahasa Inggeris, penghormatan berkumpulan di Pertandingan Nyanyian Shanghai, dan Anugerah Sumbangan Cemerlang di Festival Pertukaran Seni China-Jerman; Anugerah Lagu Terbaik di pertandingan SGSW 'I Write My Song' 2023; serta Anugerah Melodi Terbaik di Pertandingan Penciptaan Lagu Cina Xin Qing Rong Ji ke-25 yang dianjurkan oleh National University of Singapore - antara yang lain. Saya juga pernah mengetuai kumpulan pelajar dalam pameran seni universiti.",
     "philosophy": "Falsafah pengajaran saya: Biarkan muzik kembali ke alam semula jadi, biarkan nyanyian lahir dari hati."
   },
   "method": {
@@ -58,12 +58,42 @@
     "viewMore": "Lihat Lagi",
     "videoUnavailable": "Video akan datang",
     "videos": {
-      "v1": { "title": "You Raise Me Up", "student": "Kai Xuan & Kai Lun", "song": "You Raise Me Up", "desc": "Persembahan duet pelajar" },
-      "v2": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" },
-      "v3": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" },
-      "v4": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" },
-      "v5": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" },
-      "v6": { "title": "Video akan datang", "student": "", "song": "", "desc": "Nantikan" }
+      "v1": {
+        "title": "You Raise Me Up",
+        "student": "Kai Xuan & Kai Lun",
+        "song": "You Raise Me Up",
+        "desc": "Persembahan duet pelajar"
+      },
+      "v2": {
+        "title": "Video akan datang",
+        "student": "",
+        "song": "",
+        "desc": "Nantikan"
+      },
+      "v3": {
+        "title": "Video akan datang",
+        "student": "",
+        "song": "",
+        "desc": "Nantikan"
+      },
+      "v4": {
+        "title": "Video akan datang",
+        "student": "",
+        "song": "",
+        "desc": "Nantikan"
+      },
+      "v5": {
+        "title": "Video akan datang",
+        "student": "",
+        "song": "",
+        "desc": "Nantikan"
+      },
+      "v6": {
+        "title": "Video akan datang",
+        "student": "",
+        "song": "",
+        "desc": "Nantikan"
+      }
     }
   },
   "cta": {
@@ -171,7 +201,7 @@
   "footer": {
     "contact": "Hubungi Kami",
     "followUs": "Ikuti Kami",
-    "rights": "\u00a9 2026 Ruby's Music Rainforest. Hak cipta terpelihara.",
+    "rights": "© 2026 Ruby's Music Rainforest. Hak cipta terpelihara.",
     "privacy": "Dasar Privasi",
     "location": "Singapura"
   }
