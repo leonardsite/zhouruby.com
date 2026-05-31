@@ -104,10 +104,9 @@
   background: radial-gradient(circle, rgba(255,247,214,1) 0%, rgba(239,184,74,.85) 40%, rgba(239,184,74,0) 70%);
   filter: blur(.3px); }
 
-/* ============ Reveal (GSAP enhances; CSS keeps content visible if JS off) ============ */
+/* ============ Reveal — content is ALWAYS visible; gsap only ADDS motion when it runs.
+   (Never gate visibility on JS: if gsap fails to load/run, the page must still show everything.) */
 .reveal { opacity: 1; }
-.js .reveal { opacity: 0; transform: translateY(24px); }
-.js .reveal.is-in { opacity: 1; transform: none; transition: opacity .8s cubic-bezier(.22,.61,.36,1), transform .8s cubic-bezier(.22,.61,.36,1); }
 
 /* vine divider */
 .vine-divider { position: relative; height: 90px; margin-top: -1px; pointer-events:none; }
@@ -122,5 +121,4 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .animate-float, .animate-float-delayed { animation: none; }
-  .js .reveal { opacity: 1; transform: none; }
 }

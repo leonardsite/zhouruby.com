@@ -21,14 +21,13 @@ export default function ParallaxHero() {
         window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
         window.location.search.includes('still');
 
-      /* ---- entrance timeline (skipped when reduced/still → content rests visible) ---- */
+      /* ---- entrance: TRANSFORM-ONLY (never sets opacity:0 → content can't get stuck hidden) ---- */
       if (!reduce) {
         const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
-        tl.from('[data-hero="logo"]', { opacity: 0, scale: 0.6, y: -10, duration: 0.8 })
-          .from('[data-hero="title"]', { opacity: 0, y: 28, duration: 0.9 }, '-=0.4')
-          .from('[data-hero="sub"]', { opacity: 0, y: 20, duration: 0.8 }, '-=0.55')
-          .from('[data-hero="cta"] > *', { opacity: 0, y: 16, stagger: 0.12, duration: 0.6 }, '-=0.4')
-          .from('[data-hero="scroll"]', { opacity: 0, duration: 0.6 }, '-=0.2');
+        tl.from('[data-hero="logo"]', { scale: 0.6, y: -10, duration: 0.8 })
+          .from('[data-hero="title"]', { y: 30, duration: 0.9 }, '-=0.4')
+          .from('[data-hero="sub"]', { y: 22, duration: 0.8 }, '-=0.6')
+          .from('[data-hero="cta"] > *', { y: 16, stagger: 0.12, duration: 0.6 }, '-=0.45');
       }
 
       /* ---- parallax on scroll ---- */
