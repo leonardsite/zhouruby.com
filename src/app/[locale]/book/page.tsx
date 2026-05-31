@@ -82,27 +82,6 @@ export default function BookPage() {
         </div>
       </section>
 
-      {/* ===== Availability calendar (secondary, framed on-brand) ===== */}
-      <section className="section-pad" style={{ background: 'linear-gradient(180deg, var(--sage) 0%, #cfe0c4 100%)' }}>
-        <div className="container mx-auto max-w-4xl px-4">
-          <div className="mb-8 text-center">
-            <h2 className="section-title">{t('book.calendarTitle')}</h2>
-            <p className="lead mx-auto max-w-xl">{t('book.calendarDesc')}</p>
-          </div>
-          <div className="overflow-hidden rounded-3xl bg-white shadow-xl ring-1 ring-black/5">
-            <div className="px-5 py-3 font-body text-sm font-semibold text-white" style={{ background: 'linear-gradient(120deg, var(--forest), var(--teal))' }}>
-              {t('book.calendarTitle')} · Ruby&apos;s Music Rainforest
-            </div>
-            <iframe
-              src="https://calendar.google.com/calendar/embed?src=rubyzhou25%40gmail.com&ctz=Asia%2FSingapore&mode=WEEK&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=0&bgcolor=%23ffffff"
-              className="w-full border-0"
-              style={{ minHeight: '600px' }}
-              title={t('book.calendarTitle')}
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </section>
     </>
   );
 }
