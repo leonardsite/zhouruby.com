@@ -76,7 +76,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="reveal mb-12 text-center">
             <h2 className="section-title">{t('method.sectionTitle')}</h2>
-            <p className="section-subtitle mx-auto max-w-2xl">{t('featuredCourses.subtitle')}</p>
+            <p className="section-subtitle mx-auto max-w-2xl">{t('method.subtitle')}</p>
           </div>
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-7 md:grid-cols-3">
             {methods.map((m, i) => (
@@ -106,14 +106,15 @@ export default function HomePage() {
             <h2 className="section-title">{t('featuredCourses.sectionTitle')}</h2>
             <p className="section-subtitle">{t('featuredCourses.subtitle')}</p>
           </div>
-          <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-3">
             {[
-              { key: 'adult', img: '/images/generated/course-adult-singing.webp' },
-              { key: 'kids', img: '/images/generated/course-children-music.webp' },
+              { key: 'sprout', img: '/images/generated/course-early-childhood.webp' },
+              { key: 'adventure', img: '/images/generated/course-children-music.webp' },
+              { key: 'star', img: '/images/generated/showcase-stage.webp' },
             ].map((c) => (
               <Link key={c.key} href="/courses" className="reveal card group block overflow-hidden text-center">
                 <div className="relative mb-4 aspect-[4/3] w-full overflow-hidden rounded-xl">
-                  <Image src={c.img} alt={t(`featuredCourses.${c.key}.title`)} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width:768px) 100vw, 50vw" />
+                  <Image src={c.img} alt={t(`featuredCourses.${c.key}.title`)} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width:768px) 100vw, 33vw" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent opacity-0 transition group-hover:opacity-100" />
                 </div>
                 <h3 className="mb-2 font-display text-xl font-bold" style={{ color: 'var(--forest)' }}>{t(`featuredCourses.${c.key}.title`)}</h3>

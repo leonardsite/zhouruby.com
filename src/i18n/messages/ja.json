@@ -19,6 +19,7 @@
   },
   "method": {
     "sectionTitle": "指導の特長",
+    "subtitle": "科学的発声 · 音楽と自然 · 中国語・日本語・英語の歌",
     "scientific": {
       "title": "科学的発声トレーニング",
       "desc": "小さなカエルが鳴嚢を使って歌うように、最も科学的な自然共鳴の方法を指導します"
@@ -29,19 +30,23 @@
     },
     "language": {
       "title": "音楽と言語",
-      "desc": "音楽を通じて楽しく中国語を学びましょう"
+      "desc": "中国語・日本語・英語の歌を使い、発音、つながり、表現を実際の曲の中で学びます"
     }
   },
   "featuredCourses": {
     "sectionTitle": "コース",
-    "subtitle": "科学的発声 · 音楽と自然 · 音楽と言語",
-    "adult": {
-      "title": "大人コース",
-      "desc": "1対1・ペア・グループから選べる多彩なレッスン形式で、発声の癖を改善し歌唱力を引き出します"
+    "subtitle": "公開コースは3段階：Rainforest Sprout → Rainforest Adventure → Rainforest Star Voice",
+    "sprout": {
+      "title": "Rainforest Sprout",
+      "desc": "3〜5歳向けの小規模パイロット。リズム、エコー唱、音楽ゲームで声を出す自信を育てます"
     },
-    "kids": {
-      "title": "キッズコース",
-      "desc": "1対1・ペア・グループレッスンで音程・表現力・パフォーマンスを体系的にトレーニング。検定やステージに向けて"
+    "adventure": {
+      "title": "Rainforest Adventure",
+      "desc": "6〜8歳の基礎。音程、呼吸、言葉のリズムと、初めての一曲を安定して歌う力を育てます"
+    },
+    "star": {
+      "title": "Rainforest Star Voice",
+      "desc": "7〜12歳の童声ステップアップ。舞台表現、MVカバー、検定やコンクール目標に合わせます"
     },
     "viewAll": "すべてのコースを見る"
   },
@@ -103,47 +108,30 @@
   },
   "courses": {
     "pageTitle": "コース紹介",
-    "pageSubtitle": "すべての年齢に対応したコース",
+    "pageSubtitle": "公開サイトでは3段階のみを掲載し、詳細な進度はRuby先生がレッスン後に管理します",
     "tabs": {
-      "adult": "大人コース",
-      "kids": "キッズコース"
+      "sprout": "Rainforest Sprout",
+      "adventure": "Rainforest Adventure",
+      "star": "Rainforest Star Voice"
     },
     "courseTypes": {
-      "private": {
-        "title": "プライベートレッスン（1対1）",
-        "desc": "あなたの声の特徴と目標に合わせた、オーダーメイドのボーカルレッスン",
-        "duration": "60分 / レッスン",
-        "format": "対面 / オンライン"
+      "sprout": {
+        "title": "Rainforest Sprout · Tadpole Pilot",
+        "desc": "3〜5歳向け。まずは2〜3名の小規模パイロットとして、オルフの動き、リズムゲーム、動物の声、短いエコー唱で、無理なく声を出す準備をします。",
+        "duration": "45〜60分 / レッスン",
+        "format": "対面・小規模パイロット"
       },
-      "duo": {
-        "title": "ペアプライベートレッスン（1対2）",
-        "desc": "お友達と一緒に学び、互いに刺激し合い、音楽の楽しさを共有しましょう",
+      "adventure": {
+        "title": "Rainforest Adventure · キッズ声楽基礎",
+        "desc": "6〜8歳向け。自然な発声、音程、呼吸、中国語・英語の発音を整え、表情のある初めてのソロと家庭練習につなげます。",
         "duration": "60分 / レッスン",
-        "format": "対面"
+        "format": "主に1対1"
       },
-      "group": {
-        "title": "グループレッスン",
-        "desc": "3〜10人、企業イベントのリハーサル、カラオケボーカルトレーニングなどのグループプログラム",
+      "star": {
+        "title": "Rainforest Star Voice · 7〜12歳童声",
+        "desc": "7〜12歳のステップアップ。ポップス、ミュージカル、中国語曲、検定やコンクール目標に合わせて進めます。最初の録画コースも「Children's Voice 7-12」から始めます。",
         "duration": "60分 / レッスン",
-        "format": "対面"
-      },
-      "kidsPrivate": {
-        "title": "1対1 キッズボーカルレッスン",
-        "desc": "お子さまに合わせたオーダーメイドのボーカル学習プラン。興味の開発、検定準備、進学ポートフォリオ、プロフェッショナルパスガイダンス",
-        "duration": "60分 / レッスン",
-        "format": "対面 / オンライン"
-      },
-      "kidsDuo": {
-        "title": "ペアプライベートレッスン（1対2）",
-        "desc": "お友達と一緒に歌を学び、互いに励まし合いながら楽しい雰囲気の中で音楽力を伸ばしましょう",
-        "duration": "60分 / レッスン",
-        "format": "対面"
-      },
-      "kidsGroup": {
-        "title": "キッズボーカルグループクラス",
-        "desc": "オルフ教育法に基づくボーカル＆リトミッククラス。3〜6名のお子さま対象。Ruby先生オリジナルの音楽ゲームで、楽しみながら科学的発声と音楽リズムを身につけます",
-        "duration": "60分 / レッスン",
-        "format": "対面"
+        "format": "主に1対1"
       }
     },
     "details": {
@@ -153,11 +141,15 @@
       "language": "指導言語",
       "bilingual": "中国語 / 英語 バイリンガル"
     },
-    "bookThis": "このコースを予約",
+    "bookThis": "WhatsAppで相談",
     "suitable": {
-      "adult": "18歳以上の大人",
-      "kids": "6〜17歳の子ども・ティーン"
-    }
+      "sprout": "3〜5歳",
+      "adventure": "6〜8歳",
+      "star": "7〜12歳"
+    },
+    "publicNote": "公開サイトでは3段階のみ掲載します。7段階のRainforest進度表は、先生の内部評価用として扱います。",
+    "duoNote": "1対2は積極的には募集せず、お子さまのレベル・時間・相性が合う場合のみ対応します。",
+    "vodNote": "最初の録画コースは「Children's Voice 7-12」。まず15分のサンプルで編集、アップロード、視聴の流れを確認します。"
   },
   "book": {
     "pageTitle": "レッスン予約",

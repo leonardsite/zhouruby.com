@@ -19,6 +19,7 @@
   },
   "method": {
     "sectionTitle": "Our Approach",
+    "subtitle": "Scientific vocals · Music and nature · Chinese, Japanese and English songs",
     "scientific": {
       "title": "Scientific Vocal Training",
       "desc": "Just as a little frog uses its vocal sac to sing, we teach the most scientific methods of natural resonance"
@@ -29,19 +30,23 @@
     },
     "language": {
       "title": "Music & Language",
-      "desc": "Learn Chinese through music in an engaging and joyful way"
+      "desc": "Songs in Chinese, Japanese and English, with diction, liaison and expression taught through real repertoire"
     }
   },
   "featuredCourses": {
     "sectionTitle": "Courses",
-    "subtitle": "Scientific Vocals · Music & Nature · Music & Language",
-    "adult": {
-      "title": "Adult Courses",
-      "desc": "1-on-1, duo, and group options — correct vocal habits and unlock your singing potential"
+    "subtitle": "Three public stages: Rainforest Sprout → Rainforest Adventure → Rainforest Star Voice",
+    "sprout": {
+      "title": "Rainforest Sprout",
+      "desc": "A small 3-5 pilot for 2-3 children, using rhythm, echo singing and games to build confidence"
     },
-    "kids": {
-      "title": "Kids Courses",
-      "desc": "1-on-1, duo, and group options — systematic training in pitch, performance, and stage readiness"
+    "adventure": {
+      "title": "Rainforest Adventure",
+      "desc": "Foundations for ages 6-8: pitch, breath, language rhythm and a first complete solo song"
+    },
+    "star": {
+      "title": "Rainforest Star Voice",
+      "desc": "Advanced children's voice for ages 7-12, with stage expression, MV covers, exams or competitions"
     },
     "viewAll": "View All Courses"
   },
@@ -103,47 +108,30 @@
   },
   "courses": {
     "pageTitle": "Our Courses",
-    "pageSubtitle": "Tailored courses for every age group",
+    "pageSubtitle": "The public website shows three stages only; Ruby tracks detailed internal progress after class",
     "tabs": {
-      "adult": "Adult Courses",
-      "kids": "Kids Courses"
+      "sprout": "Rainforest Sprout",
+      "adventure": "Rainforest Adventure",
+      "star": "Rainforest Star Voice"
     },
     "courseTypes": {
-      "private": {
-        "title": "Private 1-on-1 Lessons",
-        "desc": "Personalised vocal lessons designed around your unique voice and goals",
-        "duration": "60 min / lesson",
-        "format": "In-person / Online"
+      "sprout": {
+        "title": "Rainforest Sprout · Tadpole Pilot",
+        "desc": "For ages 3-5, starting as a small pilot with 2-3 children. Orff movement, rhythm games, animal sounds and short echo singing help children open up without pushing the voice.",
+        "duration": "45-60 min / lesson",
+        "format": "Small in-person pilot"
       },
-      "duo": {
-        "title": "Duo Private Lessons (1-on-2)",
-        "desc": "Learn together with a friend, motivate each other, and enjoy the joy of music",
+      "adventure": {
+        "title": "Rainforest Adventure · Kids Vocal Foundations",
+        "desc": "For ages 6-8, building natural voice, pitch, breath and Chinese/English diction. The goal is a stable first solo with expression and clear at-home practice tasks.",
         "duration": "60 min / lesson",
-        "format": "In-person"
+        "format": "Mainly 1-on-1"
       },
-      "group": {
-        "title": "Group Lessons",
-        "desc": "3-10 students, corporate event rehearsals, KTV vocal training and other group programmes",
+      "star": {
+        "title": "Rainforest Star Voice · Ages 7-12",
+        "desc": "For advanced children's voices aged 7-12, working toward pop songs, musical theatre, Chinese repertoire, exams or competitions. The first VOD course starts with Children's Voice 7-12.",
         "duration": "60 min / lesson",
-        "format": "In-person"
-      },
-      "kidsPrivate": {
-        "title": "1-on-1 Kids Vocal Lesson",
-        "desc": "A tailor-made vocal learning plan for your child. Interest development, exam preparation, portfolio building, and professional pathway guidance",
-        "duration": "60 min / lesson",
-        "format": "In-person / Online"
-      },
-      "kidsDuo": {
-        "title": "Duo Private Lessons (1-on-2)",
-        "desc": "Learn to sing with a buddy — mutual encouragement, shared progress, and a fun atmosphere to develop musical skills together",
-        "duration": "60 min / lesson",
-        "format": "In-person"
-      },
-      "kidsGroup": {
-        "title": "Kids Vocal Group Class",
-        "desc": "An Orff-inspired vocal and movement group class for 3-6 children. Featuring Ruby's original music games, learning scientific vocal techniques and developing musical rhythm in a fun environment",
-        "duration": "60 min / lesson",
-        "format": "In-person"
+        "format": "Mainly 1-on-1"
       }
     },
     "details": {
@@ -153,11 +141,15 @@
       "language": "Language",
       "bilingual": "Chinese / English bilingual"
     },
-    "bookThis": "Book This Course",
+    "bookThis": "Ask on WhatsApp",
     "suitable": {
-      "adult": "Adults 18+",
-      "kids": "Children & teens aged 6-17"
-    }
+      "sprout": "Ages 3-5",
+      "adventure": "Ages 6-8",
+      "star": "Ages 7-12"
+    },
+    "publicNote": "The public site presents only the three course stages; the seven-level rainforest progress scale stays internal for teacher assessment.",
+    "duoNote": "1-on-2 is not actively promoted; it is arranged only when the children, level, timing and partner fit.",
+    "vodNote": "The first recorded course is Children's Voice 7-12; a 15-minute sample will run through editing, upload and viewing first."
   },
   "book": {
     "pageTitle": "Book a Lesson",

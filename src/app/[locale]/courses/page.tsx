@@ -9,72 +9,53 @@ export default function CoursesPage() {
 
   const categories = [
     {
-      key: 'adult' as const,
-      label: t('courses.tabs.adult'),
-      icon: '🎵',
-      suitable: t('courses.suitable.adult'),
+      key: 'sprout',
+      label: t('courses.tabs.sprout'),
+      icon: '🌱',
+      suitable: t('courses.suitable.sprout'),
       courses: [
         {
-          key: 'adult-private',
-          title: t('courses.courseTypes.private.title'),
-          desc: t('courses.courseTypes.private.desc'),
-          duration: t('courses.courseTypes.private.duration'),
-          format: t('courses.courseTypes.private.format'),
+          key: 'sprout-core',
+          title: t('courses.courseTypes.sprout.title'),
+          desc: t('courses.courseTypes.sprout.desc'),
+          duration: t('courses.courseTypes.sprout.duration'),
+          format: t('courses.courseTypes.sprout.format'),
           language: t('courses.details.bilingual'),
-          icon: '👤',
-        },
-        {
-          key: 'adult-duo',
-          title: t('courses.courseTypes.duo.title'),
-          desc: t('courses.courseTypes.duo.desc'),
-          duration: t('courses.courseTypes.duo.duration'),
-          format: t('courses.courseTypes.duo.format'),
-          language: t('courses.details.bilingual'),
-          icon: '👥',
-        },
-        {
-          key: 'adult-group',
-          title: t('courses.courseTypes.group.title'),
-          desc: t('courses.courseTypes.group.desc'),
-          duration: t('courses.courseTypes.group.duration'),
-          format: t('courses.courseTypes.group.format'),
-          language: t('courses.details.bilingual'),
-          icon: '👨‍👩‍👧‍👦',
+          icon: '🌱',
         },
       ],
     },
     {
-      key: 'kids' as const,
-      label: t('courses.tabs.kids'),
-      icon: '🎶',
-      suitable: t('courses.suitable.kids'),
+      key: 'adventure',
+      label: t('courses.tabs.adventure'),
+      icon: '🧭',
+      suitable: t('courses.suitable.adventure'),
       courses: [
         {
-          key: 'kids-private',
-          title: t('courses.courseTypes.kidsPrivate.title'),
-          desc: t('courses.courseTypes.kidsPrivate.desc'),
-          duration: t('courses.courseTypes.kidsPrivate.duration'),
-          format: t('courses.courseTypes.kidsPrivate.format'),
+          key: 'adventure-core',
+          title: t('courses.courseTypes.adventure.title'),
+          desc: t('courses.courseTypes.adventure.desc'),
+          duration: t('courses.courseTypes.adventure.duration'),
+          format: t('courses.courseTypes.adventure.format'),
           language: t('courses.details.bilingual'),
-          icon: '👤',
+          icon: '🧭',
         },
+      ],
+    },
+    {
+      key: 'star',
+      label: t('courses.tabs.star'),
+      icon: '🎤',
+      suitable: t('courses.suitable.star'),
+      courses: [
         {
-          key: 'kids-duo',
-          title: t('courses.courseTypes.kidsDuo.title'),
-          desc: t('courses.courseTypes.kidsDuo.desc'),
-          duration: t('courses.courseTypes.kidsDuo.duration'),
-          format: t('courses.courseTypes.kidsDuo.format'),
+          key: 'star-core',
+          title: t('courses.courseTypes.star.title'),
+          desc: t('courses.courseTypes.star.desc'),
+          duration: t('courses.courseTypes.star.duration'),
+          format: t('courses.courseTypes.star.format'),
           language: t('courses.details.bilingual'),
-          icon: '👥',
-        },
-        {
-          key: 'kids-group',
-          title: t('courses.courseTypes.kidsGroup.title'),
-          desc: t('courses.courseTypes.kidsGroup.desc'),
-          duration: t('courses.courseTypes.kidsGroup.duration'),
-          format: t('courses.courseTypes.kidsGroup.format'),
-          language: t('courses.details.bilingual'),
-          icon: '👨‍👩‍👧‍👦',
+          icon: '🎤',
         },
       ],
     },
@@ -124,6 +105,13 @@ export default function CoursesPage() {
             languageLabel={t('courses.details.language')}
             suitableLabel={t('courses.details.suitable')}
           />
+          <div className="mx-auto mt-10 grid max-w-5xl grid-cols-1 gap-4 md:grid-cols-3">
+            {[t('courses.publicNote'), t('courses.duoNote'), t('courses.vodNote')].map((item) => (
+              <div key={item} className="rounded-2xl border border-brand-green/20 bg-white/70 px-5 py-4 font-body text-sm text-gray-700 shadow-sm">
+                {item}
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
